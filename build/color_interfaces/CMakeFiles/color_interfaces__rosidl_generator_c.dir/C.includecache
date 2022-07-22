@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
+
+/root/deepracer_ws/color-detection-project/color_detection_ws/build/color_interfaces/rosidl_generator_c/color_interfaces/msg/detail/color_flag__functions.c
+color_interfaces/msg/detail/color_flag__functions.h
+/root/deepracer_ws/color-detection-project/color_detection_ws/build/color_interfaces/rosidl_generator_c/color_interfaces/msg/detail/color_interfaces/msg/detail/color_flag__functions.h
+assert.h
+-
+stdbool.h
+-
+stdlib.h
+-
+string.h
+-
+
+rosidl_generator_c/color_interfaces/msg/detail/color_flag__functions.h
+stdbool.h
+-
+stdlib.h
+-
+rosidl_runtime_c/visibility_control.h
+rosidl_generator_c/color_interfaces/msg/detail/rosidl_runtime_c/visibility_control.h
+color_interfaces/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/color_interfaces/msg/detail/color_interfaces/msg/rosidl_generator_c__visibility_control.h
+color_interfaces/msg/detail/color_flag__struct.h
+rosidl_generator_c/color_interfaces/msg/detail/color_interfaces/msg/detail/color_flag__struct.h
+
+rosidl_generator_c/color_interfaces/msg/detail/color_flag__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+
+rosidl_generator_c/color_interfaces/msg/rosidl_generator_c__visibility_control.h
+

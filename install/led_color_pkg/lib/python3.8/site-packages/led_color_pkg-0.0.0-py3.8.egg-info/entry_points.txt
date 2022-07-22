@@ -1,0 +1,3 @@
+[console_scripts]
+led_color_node = led_color_pkg.led_color_node:main
+

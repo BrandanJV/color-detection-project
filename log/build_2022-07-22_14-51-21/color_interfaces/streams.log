@@ -1,0 +1,50 @@
+[1.056s] Invoking command in '/root/deepracer_ws/color-detection-project/color_detection_ws/build/color_interfaces': /usr/bin/cmake /root/deepracer_ws/color-detection-project/color_detection_ws/src/color_interfaces -DCMAKE_INSTALL_PREFIX=/root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces
+[1.121s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.223s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[1.224s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.166s] -- Found rosidl_default_generators: 1.0.0 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.195s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.209s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.708s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.923s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[3.414s] Error parsing '/root/deepracer_ws/color-detection-project/color_detection_ws/src/color_interfaces/package.xml':
+[3.968s] Traceback (most recent call last):
+[3.974s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 596, in parse_package_string
+[3.975s]     root = dom.parseString(data)
+[3.975s]   File "/usr/lib/python3.8/xml/dom/minidom.py", line 1969, in parseString
+[3.975s]     return expatbuilder.parseString(string)
+[3.976s]   File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 925, in parseString
+[3.976s]     return builder.parseString(string)
+[3.976s]   File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 223, in parseString
+[3.977s]     parser.Parse(string, True)
+[3.977s] xml.parsers.expat.ExpatError: not well-formed (invalid token): line 7, column 21
+[3.977s] 
+[3.977s] During handling of the above exception, another exception occurred:
+[3.978s] 
+[3.978s] Traceback (most recent call last):
+[3.978s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+[3.979s]     main()
+[3.979s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+[3.979s]     raise e
+[3.979s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main
+[3.980s]     package = parse_package_string(
+[3.980s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 598, in parse_package_string
+[3.980s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[3.989s] catkin_pkg.package.InvalidPackage: Error(s) in package '/root/deepracer_ws/color-detection-project/color_detection_ws/src/color_interfaces/package.xml':
+[3.989s] The manifest contains invalid XML:
+[3.990s] not well-formed (invalid token): line 7, column 21
+[4.058s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[4.058s]   execute_process(/usr/bin/python3
+[4.058s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[4.059s]   /root/deepracer_ws/color-detection-project/color_detection_ws/src/color_interfaces/package.xml
+[4.059s]   /root/deepracer_ws/color-detection-project/color_detection_ws/build/color_interfaces/ament_cmake_core/package.cmake)
+[4.059s]   returned error code 1
+[4.060s] Call Stack (most recent call first):
+[4.060s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[4.060s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[4.061s]   CMakeLists.txt:24 (rosidl_generate_interfaces)
+[4.061s] 
+[4.061s] 
+[4.062s] -- Configuring incomplete, errors occurred!
+[4.062s] See also "/root/deepracer_ws/color-detection-project/color_detection_ws/build/color_interfaces/CMakeFiles/CMakeOutput.log".
+[4.084s] Invoked command in '/root/deepracer_ws/color-detection-project/color_detection_ws/build/color_interfaces' returned '1': /usr/bin/cmake /root/deepracer_ws/color-detection-project/color_detection_ws/src/color_interfaces -DCMAKE_INSTALL_PREFIX=/root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces

@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/color_filter_pkg/color_filter_pkg.egg-info/PKG-INFO
+../../build/color_filter_pkg/color_filter_pkg.egg-info/SOURCES.txt
+../../build/color_filter_pkg/color_filter_pkg.egg-info/dependency_links.txt
+../../build/color_filter_pkg/color_filter_pkg.egg-info/entry_points.txt
+../../build/color_filter_pkg/color_filter_pkg.egg-info/requires.txt
+../../build/color_filter_pkg/color_filter_pkg.egg-info/top_level.txt
+../../build/color_filter_pkg/color_filter_pkg.egg-info/zip-safe
+color_filter_pkg/__init__.py
+color_filter_pkg/color_filter_node.py
+resource/color_filter_pkg
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

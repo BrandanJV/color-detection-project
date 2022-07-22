@@ -1,0 +1,38 @@
+Error parsing '/root/deepracer_ws/color-detection-project/color_detection_ws/src/color_interfaces/package.xml':
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 596, in parse_package_string
+    root = dom.parseString(data)
+  File "/usr/lib/python3.8/xml/dom/minidom.py", line 1969, in parseString
+    return expatbuilder.parseString(string)
+  File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 925, in parseString
+    return builder.parseString(string)
+  File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 223, in parseString
+    parser.Parse(string, True)
+xml.parsers.expat.ExpatError: not well-formed (invalid token): line 7, column 21
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+    main()
+  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+    raise e
+  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main
+    package = parse_package_string(
+  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 598, in parse_package_string
+    raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+catkin_pkg.package.InvalidPackage: Error(s) in package '/root/deepracer_ws/color-detection-project/color_detection_ws/src/color_interfaces/package.xml':
+The manifest contains invalid XML:
+not well-formed (invalid token): line 7, column 21
+CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+  execute_process(/usr/bin/python3
+  /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+  /root/deepracer_ws/color-detection-project/color_detection_ws/src/color_interfaces/package.xml
+  /root/deepracer_ws/color-detection-project/color_detection_ws/build/color_interfaces/ament_cmake_core/package.cmake)
+  returned error code 1
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+  CMakeLists.txt:24 (rosidl_generate_interfaces)
+
+

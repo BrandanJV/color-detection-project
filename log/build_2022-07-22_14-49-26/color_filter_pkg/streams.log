@@ -1,0 +1,20 @@
+[3.161s] Invoking command in '/root/deepracer_ws/color-detection-project/color_detection_ws/src/color_filter_pkg': PYTHONPATH=/root/deepracer_ws/color-detection-project/color_detection_ws/install/color_filter_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/color_filter_pkg build --build-base /root/deepracer_ws/color-detection-project/color_detection_ws/build/color_filter_pkg/build install --prefix /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_filter_pkg --record /root/deepracer_ws/color-detection-project/color_detection_ws/build/color_filter_pkg/install.log --single-version-externally-managed
+[4.261s] running egg_info
+[4.265s] writing ../../build/color_filter_pkg/color_filter_pkg.egg-info/PKG-INFO
+[4.266s] writing dependency_links to ../../build/color_filter_pkg/color_filter_pkg.egg-info/dependency_links.txt
+[4.268s] writing entry points to ../../build/color_filter_pkg/color_filter_pkg.egg-info/entry_points.txt
+[4.270s] writing requirements to ../../build/color_filter_pkg/color_filter_pkg.egg-info/requires.txt
+[4.271s] writing top-level names to ../../build/color_filter_pkg/color_filter_pkg.egg-info/top_level.txt
+[4.413s] reading manifest file '../../build/color_filter_pkg/color_filter_pkg.egg-info/SOURCES.txt'
+[4.417s] writing manifest file '../../build/color_filter_pkg/color_filter_pkg.egg-info/SOURCES.txt'
+[4.418s] running build
+[4.418s] running build_py
+[4.420s] running install
+[4.424s] running install_lib
+[4.431s] running install_data
+[4.434s] running install_egg_info
+[4.444s] removing '/root/deepracer_ws/color-detection-project/color_detection_ws/install/color_filter_pkg/lib/python3.8/site-packages/color_filter_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[4.444s] Copying ../../build/color_filter_pkg/color_filter_pkg.egg-info to /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_filter_pkg/lib/python3.8/site-packages/color_filter_pkg-0.0.0-py3.8.egg-info
+[4.449s] running install_scripts
+[4.530s] Installing color_filter_node script to /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_filter_pkg/lib/color_filter_pkg
+[4.532s] writing list of installed files to '/root/deepracer_ws/color-detection-project/color_detection_ws/build/color_filter_pkg/install.log'
