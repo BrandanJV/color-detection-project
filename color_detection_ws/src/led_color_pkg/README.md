@@ -45,7 +45,7 @@ Follow the next steps as root user to download the project:
         cd ~/deepracer_ws/color-detection-project/color_detection_ws/ && colcon build --packages-select led_color_pkg
         
 
-## Using the Color Detection Package:
+## Using the Led Color Package:
 Open a new terminal and follow the instructions ahead.
 
 1. Switch to root user:
