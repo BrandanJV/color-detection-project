@@ -1,4 +1,4 @@
-# Led Color of the Color Detection Project
+# Led Color Package of the Color Detection Project
 
 ## Overview.
 Led Color Package is the package responsible for changing the color of the LED tail lights of the AWS DeepRacer
