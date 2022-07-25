@@ -1,0 +1,299 @@
+[0.000000] (-) TimerEvent: {}
+[0.000742] (color_filter_pkg) JobQueued: {'identifier': 'color_filter_pkg', 'dependencies': OrderedDict()}
+[0.000924] (color_interfaces) JobQueued: {'identifier': 'color_interfaces', 'dependencies': OrderedDict()}
+[0.001012] (led_color_pkg) JobQueued: {'identifier': 'led_color_pkg', 'dependencies': OrderedDict()}
+[0.001096] (navigation_pkg) JobQueued: {'identifier': 'navigation_pkg', 'dependencies': OrderedDict()}
+[0.007490] (color_filter_pkg) JobStarted: {'identifier': 'color_filter_pkg'}
+[0.097934] (-) TimerEvent: {}
+[0.200931] (-) TimerEvent: {}
+[0.239909] (color_interfaces) JobStarted: {'identifier': 'color_interfaces'}
+[0.306354] (-) TimerEvent: {}
+[0.407258] (-) TimerEvent: {}
+[0.508061] (-) TimerEvent: {}
+[0.608843] (-) TimerEvent: {}
+[0.709524] (-) TimerEvent: {}
+[0.810318] (-) TimerEvent: {}
+[0.911139] (-) TimerEvent: {}
+[1.011928] (-) TimerEvent: {}
+[1.112716] (-) TimerEvent: {}
+[1.213496] (-) TimerEvent: {}
+[1.314416] (-) TimerEvent: {}
+[1.415288] (-) TimerEvent: {}
+[1.447470] (color_interfaces) JobProgress: {'identifier': 'color_interfaces', 'progress': 'cmake'}
+[1.447757] (color_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/root/deepracer_ws/color-detection-project/color_detection_ws/src/color_interfaces', '-DCMAKE_INSTALL_PREFIX=/root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces'], 'cwd': '/root/deepracer_ws/color-detection-project/color_detection_ws/build/color_interfaces', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('ROS_PACKAGE_PATH', '/opt/aws/deepracer/lib/async_web_server_cpp/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/vision_interfaces_pkg/lib:/opt/aws/deepracer/lib/rplidar_ros/lib:/opt/aws/deepracer/lib/deepracer_interfaces_pkg/lib:/opt/aws/deepracer/lib/async_web_server_cpp/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/deepracer_ws/color-detection-project'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/root/deepracer_ws/video_filtering_project/video_filtering_ws/install:/opt/aws/deepracer/lib'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/aws/deepracer/lib/async_web_server_cpp/lib/x86_64-linux-gnu/pkgconfig:/opt/aws/deepracer/lib/async_web_server_cpp/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/su'), ('AMENT_PREFIX_PATH', '/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/vision_interfaces_pkg:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/nav_pkg:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/leds_pkg:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/filters_pkg:/opt/aws/deepracer/lib/deepracer_launcher:/opt/aws/deepracer/lib/webserver_pkg:/opt/aws/deepracer/lib/web_video_server:/opt/aws/deepracer/lib/deepracer_systems_pkg:/opt/aws/deepracer/lib/usb_monitor_pkg:/opt/aws/deepracer/lib/status_led_pkg:/opt/aws/deepracer/lib/ctrl_pkg:/opt/aws/deepracer/lib/servo_pkg:/opt/aws/deepracer/lib/sensor_fusion_pkg:/opt/aws/deepracer/lib/rplidar_ros2:/opt/aws/deepracer/lib/rplidar_ros:/opt/aws/deepracer/lib/model_optimizer_pkg:/opt/aws/deepracer/lib/inference_pkg:/opt/aws/deepracer/lib/i2c_pkg:/opt/aws/deepracer/lib/device_info_pkg:/opt/aws/deepracer/lib/deepracer_navigation_pkg:/opt/aws/deepracer/lib/camera_pkg:/opt/aws/deepracer/lib/deepracer_interfaces_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'deepracer'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/deepracer_ws/color-detection-project/color_detection_ws/build/color_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/vision_interfaces_pkg/lib/python3.8/site-packages:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/navigation_pkg/lib/python3.8/site-packages:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/nav_pkg/lib/python3.8/site-packages:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/leds_pkg/lib/python3.8/site-packages:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/filters_pkg/lib/python3.8/site-packages:/opt/aws/deepracer/lib/webserver_pkg/lib/python3.8/site-packages:/opt/aws/deepracer/lib/deepracer_systems_pkg/lib/python3.8/site-packages:/opt/aws/deepracer/lib/usb_monitor_pkg/lib/python3.8/site-packages:/opt/aws/deepracer/lib/status_led_pkg/lib/python3.8/site-packages:/opt/aws/deepracer/lib/model_optimizer_pkg/lib/python3.8/site-packages:/opt/aws/deepracer/lib/device_info_pkg/lib/python3.8/site-packages:/opt/aws/deepracer/lib/deepracer_navigation_pkg/lib/python3.8/site-packages:/opt/aws/deepracer/lib/deepracer_interfaces_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/vision_interfaces_pkg:/opt/aws/deepracer/lib/deepracer_launcher:/opt/aws/deepracer/lib/web_video_server:/opt/aws/deepracer/lib/ctrl_pkg:/opt/aws/deepracer/lib/servo_pkg:/opt/aws/deepracer/lib/sensor_fusion_pkg:/opt/aws/deepracer/lib/rplidar_ros2:/opt/aws/deepracer/lib/rplidar_ros:/opt/aws/deepracer/lib/inference_pkg:/opt/aws/deepracer/lib/i2c_pkg:/opt/aws/deepracer/lib/camera_pkg:/opt/aws/deepracer/lib/deepracer_interfaces_pkg:/opt/aws/deepracer/lib/async_web_server_cpp')]), 'shell': False}
+[1.515495] (-) TimerEvent: {}
+[1.616295] (-) TimerEvent: {}
+[1.717119] (-) TimerEvent: {}
+[1.818020] (-) TimerEvent: {}
+[1.921691] (-) TimerEvent: {}
+[2.022571] (-) TimerEvent: {}
+[2.061772] (color_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[2.122737] (-) TimerEvent: {}
+[2.223418] (-) TimerEvent: {}
+[2.324108] (-) TimerEvent: {}
+[2.424779] (-) TimerEvent: {}
+[2.525671] (-) TimerEvent: {}
+[2.626470] (-) TimerEvent: {}
+[2.727424] (-) TimerEvent: {}
+[2.738213] (color_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[2.827805] (-) TimerEvent: {}
+[2.887410] (color_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.927954] (-) TimerEvent: {}
+[3.028629] (-) TimerEvent: {}
+[3.129387] (-) TimerEvent: {}
+[3.181190] (color_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[3.229596] (-) TimerEvent: {}
+[3.324260] (color_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.330145] (-) TimerEvent: {}
+[3.430853] (-) TimerEvent: {}
+[3.531602] (-) TimerEvent: {}
+[3.634955] (-) TimerEvent: {}
+[3.735647] (-) TimerEvent: {}
+[3.768397] (color_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.840328] (-) TimerEvent: {}
+[3.919957] (color_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.926340] (color_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.940504] (-) TimerEvent: {}
+[3.978368] (color_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[4.040672] (-) TimerEvent: {}
+[4.141494] (-) TimerEvent: {}
+[4.242179] (-) TimerEvent: {}
+[4.329446] (color_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[4.338633] (color_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.348454] (-) TimerEvent: {}
+[4.391662] (color_filter_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/color_filter_pkg', 'build', '--build-base', '/root/deepracer_ws/color-detection-project/color_detection_ws/build/color_filter_pkg/build', 'install', '--prefix', '/root/deepracer_ws/color-detection-project/color_detection_ws/install/color_filter_pkg', '--record', '/root/deepracer_ws/color-detection-project/color_detection_ws/build/color_filter_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/root/deepracer_ws/color-detection-project/color_detection_ws/src/color_filter_pkg', 'env': {'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'USER': 'root', 'ROS_PACKAGE_PATH': '/opt/aws/deepracer/lib/async_web_server_cpp/share', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/vision_interfaces_pkg/lib:/opt/aws/deepracer/lib/rplidar_ros/lib:/opt/aws/deepracer/lib/deepracer_interfaces_pkg/lib:/opt/aws/deepracer/lib/async_web_server_cpp/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/root/deepracer_ws/color-detection-project', 'ROS_PYTHON_VERSION': '3', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/root/deepracer_ws/video_filtering_project/video_filtering_ws/install:/opt/aws/deepracer/lib', 'SUDO_UID': '1000', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/aws/deepracer/lib/async_web_server_cpp/lib/x86_64-linux-gnu/pkgconfig:/opt/aws/deepracer/lib/async_web_server_cpp/lib/pkgconfig', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/su', 'AMENT_PREFIX_PATH': '/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/vision_interfaces_pkg:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/nav_pkg:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/leds_pkg:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/filters_pkg:/opt/aws/deepracer/lib/deepracer_launcher:/opt/aws/deepracer/lib/webserver_pkg:/opt/aws/deepracer/lib/web_video_server:/opt/aws/deepracer/lib/deepracer_systems_pkg:/opt/aws/deepracer/lib/usb_monitor_pkg:/opt/aws/deepracer/lib/status_led_pkg:/opt/aws/deepracer/lib/ctrl_pkg:/opt/aws/deepracer/lib/servo_pkg:/opt/aws/deepracer/lib/sensor_fusion_pkg:/opt/aws/deepracer/lib/rplidar_ros2:/opt/aws/deepracer/lib/rplidar_ros:/opt/aws/deepracer/lib/model_optimizer_pkg:/opt/aws/deepracer/lib/inference_pkg:/opt/aws/deepracer/lib/i2c_pkg:/opt/aws/deepracer/lib/device_info_pkg:/opt/aws/deepracer/lib/deepracer_navigation_pkg:/opt/aws/deepracer/lib/camera_pkg:/opt/aws/deepracer/lib/deepracer_interfaces_pkg:/opt/ros/foxy', 'SHELL': '/bin/bash', 'SUDO_USER': 'deepracer', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/root/deepracer_ws/color-detection-project/color_detection_ws/build/color_filter_pkg', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/root/deepracer_ws/color-detection-project/color_detection_ws/install/color_filter_pkg/lib/python3.8/site-packages:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/vision_interfaces_pkg/lib/python3.8/site-packages:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/navigation_pkg/lib/python3.8/site-packages:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/nav_pkg/lib/python3.8/site-packages:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/leds_pkg/lib/python3.8/site-packages:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/filters_pkg/lib/python3.8/site-packages:/opt/aws/deepracer/lib/webserver_pkg/lib/python3.8/site-packages:/opt/aws/deepracer/lib/deepracer_systems_pkg/lib/python3.8/site-packages:/opt/aws/deepracer/lib/usb_monitor_pkg/lib/python3.8/site-packages:/opt/aws/deepracer/lib/status_led_pkg/lib/python3.8/site-packages:/opt/aws/deepracer/lib/model_optimizer_pkg/lib/python3.8/site-packages:/opt/aws/deepracer/lib/device_info_pkg/lib/python3.8/site-packages:/opt/aws/deepracer/lib/deepracer_navigation_pkg/lib/python3.8/site-packages:/opt/aws/deepracer/lib/deepracer_interfaces_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/vision_interfaces_pkg:/opt/aws/deepracer/lib/deepracer_launcher:/opt/aws/deepracer/lib/web_video_server:/opt/aws/deepracer/lib/ctrl_pkg:/opt/aws/deepracer/lib/servo_pkg:/opt/aws/deepracer/lib/sensor_fusion_pkg:/opt/aws/deepracer/lib/rplidar_ros2:/opt/aws/deepracer/lib/rplidar_ros:/opt/aws/deepracer/lib/inference_pkg:/opt/aws/deepracer/lib/i2c_pkg:/opt/aws/deepracer/lib/camera_pkg:/opt/aws/deepracer/lib/deepracer_interfaces_pkg:/opt/aws/deepracer/lib/async_web_server_cpp'}, 'shell': False}
+[4.448681] (-) TimerEvent: {}
+[4.549675] (-) TimerEvent: {}
+[4.651977] (-) TimerEvent: {}
+[4.752891] (-) TimerEvent: {}
+[4.812946] (color_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.853081] (-) TimerEvent: {}
+[4.862103] (color_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.864834] (color_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.953245] (-) TimerEvent: {}
+[5.053971] (-) TimerEvent: {}
+[5.056455] (color_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[5.154230] (-) TimerEvent: {}
+[5.256734] (-) TimerEvent: {}
+[5.340809] (color_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[5.343024] (color_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.356928] (-) TimerEvent: {}
+[5.457832] (-) TimerEvent: {}
+[5.475386] (color_filter_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[5.477311] (color_filter_pkg) StdoutLine: {'line': b'creating ../../build/color_filter_pkg/color_filter_pkg.egg-info\n'}
+[5.478512] (color_filter_pkg) StdoutLine: {'line': b'writing ../../build/color_filter_pkg/color_filter_pkg.egg-info/PKG-INFO\n'}
+[5.479360] (color_filter_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/color_filter_pkg/color_filter_pkg.egg-info/dependency_links.txt\n'}
+[5.479804] (color_filter_pkg) StdoutLine: {'line': b'writing entry points to ../../build/color_filter_pkg/color_filter_pkg.egg-info/entry_points.txt\n'}
+[5.480301] (color_filter_pkg) StdoutLine: {'line': b'writing requirements to ../../build/color_filter_pkg/color_filter_pkg.egg-info/requires.txt\n'}
+[5.480648] (color_filter_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/color_filter_pkg/color_filter_pkg.egg-info/top_level.txt\n'}
+[5.559259] (-) TimerEvent: {}
+[5.629389] (color_filter_pkg) StdoutLine: {'line': b"writing manifest file '../../build/color_filter_pkg/color_filter_pkg.egg-info/SOURCES.txt'\n"}
+[5.659384] (-) TimerEvent: {}
+[5.760214] (-) TimerEvent: {}
+[5.762037] (color_filter_pkg) StdoutLine: {'line': b"reading manifest file '../../build/color_filter_pkg/color_filter_pkg.egg-info/SOURCES.txt'\n"}
+[5.773905] (color_filter_pkg) StdoutLine: {'line': b"writing manifest file '../../build/color_filter_pkg/color_filter_pkg.egg-info/SOURCES.txt'\n"}
+[5.774498] (color_filter_pkg) StdoutLine: {'line': b'running build\n'}
+[5.774814] (color_filter_pkg) StdoutLine: {'line': b'running build_py\n'}
+[5.775176] (color_filter_pkg) StdoutLine: {'line': b'creating /root/deepracer_ws/color-detection-project/color_detection_ws/build/color_filter_pkg/build\n'}
+[5.775481] (color_filter_pkg) StdoutLine: {'line': b'creating /root/deepracer_ws/color-detection-project/color_detection_ws/build/color_filter_pkg/build/lib\n'}
+[5.775779] (color_filter_pkg) StdoutLine: {'line': b'creating /root/deepracer_ws/color-detection-project/color_detection_ws/build/color_filter_pkg/build/lib/color_filter_pkg\n'}
+[5.776077] (color_filter_pkg) StdoutLine: {'line': b'copying color_filter_pkg/__init__.py -> /root/deepracer_ws/color-detection-project/color_detection_ws/build/color_filter_pkg/build/lib/color_filter_pkg\n'}
+[5.776379] (color_filter_pkg) StdoutLine: {'line': b'copying color_filter_pkg/color_filter_node.py -> /root/deepracer_ws/color-detection-project/color_detection_ws/build/color_filter_pkg/build/lib/color_filter_pkg\n'}
+[5.860484] (-) TimerEvent: {}
+[5.923306] (color_filter_pkg) StdoutLine: {'line': b'running install\n'}
+[5.926294] (color_filter_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[5.929662] (color_filter_pkg) StdoutLine: {'line': b'creating /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_filter_pkg/lib/python3.8/site-packages/color_filter_pkg\n'}
+[5.930397] (color_filter_pkg) StdoutLine: {'line': b'copying /root/deepracer_ws/color-detection-project/color_detection_ws/build/color_filter_pkg/build/lib/color_filter_pkg/__init__.py -> /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_filter_pkg/lib/python3.8/site-packages/color_filter_pkg\n'}
+[5.930803] (color_filter_pkg) StdoutLine: {'line': b'copying /root/deepracer_ws/color-detection-project/color_detection_ws/build/color_filter_pkg/build/lib/color_filter_pkg/color_filter_node.py -> /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_filter_pkg/lib/python3.8/site-packages/color_filter_pkg\n'}
+[5.940049] (color_filter_pkg) StdoutLine: {'line': b'byte-compiling /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_filter_pkg/lib/python3.8/site-packages/color_filter_pkg/__init__.py to __init__.cpython-38.pyc\n'}
+[5.940623] (color_filter_pkg) StdoutLine: {'line': b'byte-compiling /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_filter_pkg/lib/python3.8/site-packages/color_filter_pkg/color_filter_node.py to color_filter_node.cpython-38.pyc\n'}
+[5.941970] (color_filter_pkg) StdoutLine: {'line': b'running install_data\n'}
+[5.943911] (color_filter_pkg) StdoutLine: {'line': b'creating /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_filter_pkg/share\n'}
+[5.944609] (color_filter_pkg) StdoutLine: {'line': b'creating /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_filter_pkg/share/ament_index\n'}
+[5.944982] (color_filter_pkg) StdoutLine: {'line': b'creating /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_filter_pkg/share/ament_index/resource_index\n'}
+[5.945292] (color_filter_pkg) StdoutLine: {'line': b'creating /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_filter_pkg/share/ament_index/resource_index/packages\n'}
+[5.945597] (color_filter_pkg) StdoutLine: {'line': b'copying resource/color_filter_pkg -> /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_filter_pkg/share/ament_index/resource_index/packages\n'}
+[5.946117] (color_filter_pkg) StdoutLine: {'line': b'creating /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_filter_pkg/share/color_filter_pkg\n'}
+[5.946491] (color_filter_pkg) StdoutLine: {'line': b'copying package.xml -> /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_filter_pkg/share/color_filter_pkg\n'}
+[5.946797] (color_filter_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.951061] (color_filter_pkg) StdoutLine: {'line': b'Copying ../../build/color_filter_pkg/color_filter_pkg.egg-info to /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_filter_pkg/lib/python3.8/site-packages/color_filter_pkg-0.0.0-py3.8.egg-info\n'}
+[5.954099] (color_filter_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[5.960642] (-) TimerEvent: {}
+[6.039038] (color_filter_pkg) StdoutLine: {'line': b'Installing color_filter_node script to /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_filter_pkg/lib/color_filter_pkg\n'}
+[6.039600] (color_filter_pkg) StdoutLine: {'line': b"writing list of installed files to '/root/deepracer_ws/color-detection-project/color_detection_ws/build/color_filter_pkg/install.log'\n"}
+[6.060803] (-) TimerEvent: {}
+[6.121328] (color_filter_pkg) CommandEnded: {'returncode': 0}
+[6.161080] (-) TimerEvent: {}
+[6.262061] (-) TimerEvent: {}
+[6.365025] (-) TimerEvent: {}
+[6.473265] (-) TimerEvent: {}
+[6.547545] (color_filter_pkg) JobEnded: {'identifier': 'color_filter_pkg', 'rc': 0}
+[6.556727] (led_color_pkg) JobStarted: {'identifier': 'led_color_pkg'}
+[6.578483] (-) TimerEvent: {}
+[6.679382] (-) TimerEvent: {}
+[6.783901] (-) TimerEvent: {}
+[6.884778] (-) TimerEvent: {}
+[6.930022] (color_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.0 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[6.976074] (color_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.984976] (-) TimerEvent: {}
+[7.022270] (color_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[7.085170] (-) TimerEvent: {}
+[7.186064] (-) TimerEvent: {}
+[7.287005] (-) TimerEvent: {}
+[7.387859] (-) TimerEvent: {}
+[7.488810] (-) TimerEvent: {}
+[7.591198] (-) TimerEvent: {}
+[7.692095] (-) TimerEvent: {}
+[7.761222] (color_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[7.792641] (-) TimerEvent: {}
+[7.895442] (-) TimerEvent: {}
+[7.996322] (-) TimerEvent: {}
+[8.043655] (color_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[8.096478] (-) TimerEvent: {}
+[8.198616] (-) TimerEvent: {}
+[8.305597] (-) TimerEvent: {}
+[8.406832] (-) TimerEvent: {}
+[8.507866] (-) TimerEvent: {}
+[8.608821] (-) TimerEvent: {}
+[8.709534] (-) TimerEvent: {}
+[8.810448] (-) TimerEvent: {}
+[8.857114] (color_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.910655] (-) TimerEvent: {}
+[9.011623] (-) TimerEvent: {}
+[9.112557] (-) TimerEvent: {}
+[9.214834] (-) TimerEvent: {}
+[9.315696] (-) TimerEvent: {}
+[9.331483] (color_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") \n'}
+[9.387256] (led_color_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/led_color_pkg', 'build', '--build-base', '/root/deepracer_ws/color-detection-project/color_detection_ws/build/led_color_pkg/build', 'install', '--prefix', '/root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg', '--record', '/root/deepracer_ws/color-detection-project/color_detection_ws/build/led_color_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/root/deepracer_ws/color-detection-project/color_detection_ws/src/led_color_pkg', 'env': {'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'USER': 'root', 'ROS_PACKAGE_PATH': '/opt/aws/deepracer/lib/async_web_server_cpp/share', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/vision_interfaces_pkg/lib:/opt/aws/deepracer/lib/rplidar_ros/lib:/opt/aws/deepracer/lib/deepracer_interfaces_pkg/lib:/opt/aws/deepracer/lib/async_web_server_cpp/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/root/deepracer_ws/color-detection-project', 'ROS_PYTHON_VERSION': '3', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/root/deepracer_ws/video_filtering_project/video_filtering_ws/install:/opt/aws/deepracer/lib', 'SUDO_UID': '1000', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/aws/deepracer/lib/async_web_server_cpp/lib/x86_64-linux-gnu/pkgconfig:/opt/aws/deepracer/lib/async_web_server_cpp/lib/pkgconfig', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/su', 'AMENT_PREFIX_PATH': '/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/vision_interfaces_pkg:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/nav_pkg:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/leds_pkg:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/filters_pkg:/opt/aws/deepracer/lib/deepracer_launcher:/opt/aws/deepracer/lib/webserver_pkg:/opt/aws/deepracer/lib/web_video_server:/opt/aws/deepracer/lib/deepracer_systems_pkg:/opt/aws/deepracer/lib/usb_monitor_pkg:/opt/aws/deepracer/lib/status_led_pkg:/opt/aws/deepracer/lib/ctrl_pkg:/opt/aws/deepracer/lib/servo_pkg:/opt/aws/deepracer/lib/sensor_fusion_pkg:/opt/aws/deepracer/lib/rplidar_ros2:/opt/aws/deepracer/lib/rplidar_ros:/opt/aws/deepracer/lib/model_optimizer_pkg:/opt/aws/deepracer/lib/inference_pkg:/opt/aws/deepracer/lib/i2c_pkg:/opt/aws/deepracer/lib/device_info_pkg:/opt/aws/deepracer/lib/deepracer_navigation_pkg:/opt/aws/deepracer/lib/camera_pkg:/opt/aws/deepracer/lib/deepracer_interfaces_pkg:/opt/ros/foxy', 'SHELL': '/bin/bash', 'SUDO_USER': 'deepracer', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/root/deepracer_ws/color-detection-project/color_detection_ws/build/led_color_pkg', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/lib/python3.8/site-packages:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/vision_interfaces_pkg/lib/python3.8/site-packages:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/navigation_pkg/lib/python3.8/site-packages:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/nav_pkg/lib/python3.8/site-packages:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/leds_pkg/lib/python3.8/site-packages:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/filters_pkg/lib/python3.8/site-packages:/opt/aws/deepracer/lib/webserver_pkg/lib/python3.8/site-packages:/opt/aws/deepracer/lib/deepracer_systems_pkg/lib/python3.8/site-packages:/opt/aws/deepracer/lib/usb_monitor_pkg/lib/python3.8/site-packages:/opt/aws/deepracer/lib/status_led_pkg/lib/python3.8/site-packages:/opt/aws/deepracer/lib/model_optimizer_pkg/lib/python3.8/site-packages:/opt/aws/deepracer/lib/device_info_pkg/lib/python3.8/site-packages:/opt/aws/deepracer/lib/deepracer_navigation_pkg/lib/python3.8/site-packages:/opt/aws/deepracer/lib/deepracer_interfaces_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/vision_interfaces_pkg:/opt/aws/deepracer/lib/deepracer_launcher:/opt/aws/deepracer/lib/web_video_server:/opt/aws/deepracer/lib/ctrl_pkg:/opt/aws/deepracer/lib/servo_pkg:/opt/aws/deepracer/lib/sensor_fusion_pkg:/opt/aws/deepracer/lib/rplidar_ros2:/opt/aws/deepracer/lib/rplidar_ros:/opt/aws/deepracer/lib/inference_pkg:/opt/aws/deepracer/lib/i2c_pkg:/opt/aws/deepracer/lib/camera_pkg:/opt/aws/deepracer/lib/deepracer_interfaces_pkg:/opt/aws/deepracer/lib/async_web_server_cpp'}, 'shell': False}
+[9.415936] (-) TimerEvent: {}
+[9.517080] (-) TimerEvent: {}
+[9.617783] (-) TimerEvent: {}
+[9.718786] (-) TimerEvent: {}
+[9.819739] (-) TimerEvent: {}
+[9.920564] (-) TimerEvent: {}
+[10.021389] (-) TimerEvent: {}
+[10.122344] (-) TimerEvent: {}
+[10.223024] (-) TimerEvent: {}
+[10.382995] (-) TimerEvent: {}
+[10.480675] (color_interfaces) StderrLine: {'line': b"Error parsing '/root/deepracer_ws/color-detection-project/color_detection_ws/src/color_interfaces/package.xml':\n"}
+[10.483141] (-) TimerEvent: {}
+[10.583849] (-) TimerEvent: {}
+[10.584729] (led_color_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[10.587043] (led_color_pkg) StdoutLine: {'line': b'creating ../../build/led_color_pkg/led_color_pkg.egg-info\n'}
+[10.587752] (led_color_pkg) StdoutLine: {'line': b'writing ../../build/led_color_pkg/led_color_pkg.egg-info/PKG-INFO\n'}
+[10.588566] (led_color_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/led_color_pkg/led_color_pkg.egg-info/dependency_links.txt\n'}
+[10.589117] (led_color_pkg) StdoutLine: {'line': b'writing entry points to ../../build/led_color_pkg/led_color_pkg.egg-info/entry_points.txt\n'}
+[10.589646] (led_color_pkg) StdoutLine: {'line': b'writing requirements to ../../build/led_color_pkg/led_color_pkg.egg-info/requires.txt\n'}
+[10.589999] (led_color_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/led_color_pkg/led_color_pkg.egg-info/top_level.txt\n'}
+[10.609448] (led_color_pkg) StdoutLine: {'line': b"writing manifest file '../../build/led_color_pkg/led_color_pkg.egg-info/SOURCES.txt'\n"}
+[10.684022] (-) TimerEvent: {}
+[10.786517] (-) TimerEvent: {}
+[10.851745] (led_color_pkg) StdoutLine: {'line': b"reading manifest file '../../build/led_color_pkg/led_color_pkg.egg-info/SOURCES.txt'\n"}
+[10.856008] (led_color_pkg) StdoutLine: {'line': b"writing manifest file '../../build/led_color_pkg/led_color_pkg.egg-info/SOURCES.txt'\n"}
+[10.857211] (led_color_pkg) StdoutLine: {'line': b'running build\n'}
+[10.858007] (led_color_pkg) StdoutLine: {'line': b'running build_py\n'}
+[10.860125] (led_color_pkg) StdoutLine: {'line': b'creating /root/deepracer_ws/color-detection-project/color_detection_ws/build/led_color_pkg/build\n'}
+[10.861122] (led_color_pkg) StdoutLine: {'line': b'creating /root/deepracer_ws/color-detection-project/color_detection_ws/build/led_color_pkg/build/lib\n'}
+[10.862004] (led_color_pkg) StdoutLine: {'line': b'creating /root/deepracer_ws/color-detection-project/color_detection_ws/build/led_color_pkg/build/lib/led_color_pkg\n'}
+[10.863539] (led_color_pkg) StdoutLine: {'line': b'copying led_color_pkg/__init__.py -> /root/deepracer_ws/color-detection-project/color_detection_ws/build/led_color_pkg/build/lib/led_color_pkg\n'}
+[10.872580] (led_color_pkg) StdoutLine: {'line': b'copying led_color_pkg/led_color_node.py -> /root/deepracer_ws/color-detection-project/color_detection_ws/build/led_color_pkg/build/lib/led_color_pkg\n'}
+[10.874396] (led_color_pkg) StdoutLine: {'line': b'running install\n'}
+[10.879070] (led_color_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[10.883787] (led_color_pkg) StdoutLine: {'line': b'creating /root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/lib/python3.8/site-packages/led_color_pkg\n'}
+[10.886673] (-) TimerEvent: {}
+[10.887381] (led_color_pkg) StdoutLine: {'line': b'copying /root/deepracer_ws/color-detection-project/color_detection_ws/build/led_color_pkg/build/lib/led_color_pkg/__init__.py -> /root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/lib/python3.8/site-packages/led_color_pkg\n'}
+[10.887873] (led_color_pkg) StdoutLine: {'line': b'copying /root/deepracer_ws/color-detection-project/color_detection_ws/build/led_color_pkg/build/lib/led_color_pkg/led_color_node.py -> /root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/lib/python3.8/site-packages/led_color_pkg\n'}
+[10.889515] (led_color_pkg) StdoutLine: {'line': b'byte-compiling /root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/lib/python3.8/site-packages/led_color_pkg/__init__.py to __init__.cpython-38.pyc\n'}
+[10.906517] (led_color_pkg) StdoutLine: {'line': b'byte-compiling /root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/lib/python3.8/site-packages/led_color_pkg/led_color_node.py to led_color_node.cpython-38.pyc\n'}
+[10.910844] (led_color_pkg) StdoutLine: {'line': b'running install_data\n'}
+[10.913514] (led_color_pkg) StdoutLine: {'line': b'creating /root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/share\n'}
+[10.914500] (led_color_pkg) StdoutLine: {'line': b'creating /root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/share/ament_index\n'}
+[10.916091] (led_color_pkg) StdoutLine: {'line': b'creating /root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/share/ament_index/resource_index\n'}
+[10.917037] (led_color_pkg) StdoutLine: {'line': b'creating /root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/share/ament_index/resource_index/packages\n'}
+[10.918115] (led_color_pkg) StdoutLine: {'line': b'copying resource/led_color_pkg -> /root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/share/ament_index/resource_index/packages\n'}
+[10.919571] (led_color_pkg) StdoutLine: {'line': b'creating /root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/share/led_color_pkg\n'}
+[10.920749] (led_color_pkg) StdoutLine: {'line': b'copying package.xml -> /root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/share/led_color_pkg\n'}
+[10.921973] (led_color_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.929161] (led_color_pkg) StdoutLine: {'line': b'Copying ../../build/led_color_pkg/led_color_pkg.egg-info to /root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/lib/python3.8/site-packages/led_color_pkg-0.0.0-py3.8.egg-info\n'}
+[10.941656] (led_color_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[10.986860] (-) TimerEvent: {}
+[11.010378] (led_color_pkg) StdoutLine: {'line': b'Installing led_color_node script to /root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/lib/led_color_pkg\n'}
+[11.011629] (led_color_pkg) StdoutLine: {'line': b"writing list of installed files to '/root/deepracer_ws/color-detection-project/color_detection_ws/build/led_color_pkg/install.log'\n"}
+[11.093158] (-) TimerEvent: {}
+[11.154240] (led_color_pkg) CommandEnded: {'returncode': 0}
+[11.193919] (-) TimerEvent: {}
+[11.210927] (led_color_pkg) JobEnded: {'identifier': 'led_color_pkg', 'rc': 0}
+[11.213081] (navigation_pkg) JobStarted: {'identifier': 'navigation_pkg'}
+[11.294211] (-) TimerEvent: {}
+[11.395108] (-) TimerEvent: {}
+[11.440332] (color_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[11.441044] (color_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 596, in parse_package_string\n'}
+[11.441367] (color_interfaces) StderrLine: {'line': b'    root = dom.parseString(data)\n'}
+[11.441658] (color_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3.8/xml/dom/minidom.py", line 1969, in parseString\n'}
+[11.441948] (color_interfaces) StderrLine: {'line': b'    return expatbuilder.parseString(string)\n'}
+[11.442234] (color_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 925, in parseString\n'}
+[11.442530] (color_interfaces) StderrLine: {'line': b'    return builder.parseString(string)\n'}
+[11.442816] (color_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 223, in parseString\n'}
+[11.443161] (color_interfaces) StderrLine: {'line': b'    parser.Parse(string, True)\n'}
+[11.443450] (color_interfaces) StderrLine: {'line': b'xml.parsers.expat.ExpatError: not well-formed (invalid token): line 7, column 21\n'}
+[11.443737] (color_interfaces) StderrLine: {'line': b'\n'}
+[11.444022] (color_interfaces) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[11.444308] (color_interfaces) StderrLine: {'line': b'\n'}
+[11.444594] (color_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[11.444881] (color_interfaces) StderrLine: {'line': b'  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>\n'}
+[11.445166] (color_interfaces) StderrLine: {'line': b'    main()\n'}
+[11.445452] (color_interfaces) StderrLine: {'line': b'  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main\n'}
+[11.445786] (color_interfaces) StderrLine: {'line': b'    raise e\n'}
+[11.446076] (color_interfaces) StderrLine: {'line': b'  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main\n'}
+[11.446365] (color_interfaces) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[11.446650] (color_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 598, in parse_package_string\n'}
+[11.455681] (color_interfaces) StderrLine: {'line': b"    raise InvalidPackage('The manifest contains invalid XML:\\n%s' % ex, filename)\n"}
+[11.456112] (color_interfaces) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/root/deepracer_ws/color-detection-project/color_detection_ws/src/color_interfaces/package.xml':\n"}
+[11.456428] (color_interfaces) StderrLine: {'line': b'The manifest contains invalid XML:\n'}
+[11.456716] (color_interfaces) StderrLine: {'line': b'not well-formed (invalid token): line 7, column 21\n'}
+[11.495365] (-) TimerEvent: {}
+[11.543143] (color_interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):\n'}
+[11.544063] (color_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[11.544379] (color_interfaces) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[11.544670] (color_interfaces) StderrLine: {'line': b'  /root/deepracer_ws/color-detection-project/color_detection_ws/src/color_interfaces/package.xml\n'}
+[11.545007] (color_interfaces) StderrLine: {'line': b'  /root/deepracer_ws/color-detection-project/color_detection_ws/build/color_interfaces/ament_cmake_core/package.cmake)\n'}
+[11.545326] (color_interfaces) StderrLine: {'line': b'  returned error code 1\n'}
+[11.545613] (color_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[11.545896] (color_interfaces) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[11.546181] (color_interfaces) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)\n'}
+[11.546466] (color_interfaces) StderrLine: {'line': b'  CMakeLists.txt:24 (rosidl_generate_interfaces)\n'}
+[11.546757] (color_interfaces) StderrLine: {'line': b'\n'}
+[11.547092] (color_interfaces) StderrLine: {'line': b'\n'}
+[11.551155] (color_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[11.552099] (color_interfaces) StdoutLine: {'line': b'See also "/root/deepracer_ws/color-detection-project/color_detection_ws/build/color_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[11.595477] (-) TimerEvent: {}
+[11.696209] (-) TimerEvent: {}
+[11.796884] (-) TimerEvent: {}
+[11.897719] (-) TimerEvent: {}
+[12.011308] (-) TimerEvent: {}
+[12.112276] (-) TimerEvent: {}
+[12.212964] (-) TimerEvent: {}
+[12.313718] (-) TimerEvent: {}
+[12.414448] (-) TimerEvent: {}
+[12.515236] (color_interfaces) CommandEnded: {'returncode': 1}
+[12.516657] (-) TimerEvent: {}
+[12.518810] (color_interfaces) JobEnded: {'identifier': 'color_interfaces', 'rc': 1}
+[12.616849] (-) TimerEvent: {}
+[12.717609] (-) TimerEvent: {}
+[12.818298] (-) TimerEvent: {}
+[12.919097] (-) TimerEvent: {}
+[13.019905] (-) TimerEvent: {}
+[13.120685] (-) TimerEvent: {}
+[13.221414] (-) TimerEvent: {}
+[13.322204] (-) TimerEvent: {}
+[13.423049] (-) TimerEvent: {}
+[13.523806] (-) TimerEvent: {}
+[13.624579] (-) TimerEvent: {}
+[13.726919] (-) TimerEvent: {}
+[13.827717] (-) TimerEvent: {}
+[13.928386] (-) TimerEvent: {}
+[14.029166] (-) TimerEvent: {}
+[14.129933] (-) TimerEvent: {}
+[14.230615] (-) TimerEvent: {}
+[14.259943] (navigation_pkg) JobEnded: {'identifier': 'navigation_pkg', 'rc': 'SIGINT'}
+[14.276312] (-) EventReactorShutdown: {}

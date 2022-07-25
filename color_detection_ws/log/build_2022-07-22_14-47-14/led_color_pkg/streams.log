@@ -1,0 +1,39 @@
+[2.832s] Invoking command in '/root/deepracer_ws/color-detection-project/color_detection_ws/src/led_color_pkg': PYTHONPATH=/root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/led_color_pkg build --build-base /root/deepracer_ws/color-detection-project/color_detection_ws/build/led_color_pkg/build install --prefix /root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg --record /root/deepracer_ws/color-detection-project/color_detection_ws/build/led_color_pkg/install.log --single-version-externally-managed
+[4.028s] running egg_info
+[4.031s] creating ../../build/led_color_pkg/led_color_pkg.egg-info
+[4.031s] writing ../../build/led_color_pkg/led_color_pkg.egg-info/PKG-INFO
+[4.032s] writing dependency_links to ../../build/led_color_pkg/led_color_pkg.egg-info/dependency_links.txt
+[4.033s] writing entry points to ../../build/led_color_pkg/led_color_pkg.egg-info/entry_points.txt
+[4.033s] writing requirements to ../../build/led_color_pkg/led_color_pkg.egg-info/requires.txt
+[4.033s] writing top-level names to ../../build/led_color_pkg/led_color_pkg.egg-info/top_level.txt
+[4.053s] writing manifest file '../../build/led_color_pkg/led_color_pkg.egg-info/SOURCES.txt'
+[4.295s] reading manifest file '../../build/led_color_pkg/led_color_pkg.egg-info/SOURCES.txt'
+[4.300s] writing manifest file '../../build/led_color_pkg/led_color_pkg.egg-info/SOURCES.txt'
+[4.301s] running build
+[4.301s] running build_py
+[4.304s] creating /root/deepracer_ws/color-detection-project/color_detection_ws/build/led_color_pkg/build
+[4.305s] creating /root/deepracer_ws/color-detection-project/color_detection_ws/build/led_color_pkg/build/lib
+[4.305s] creating /root/deepracer_ws/color-detection-project/color_detection_ws/build/led_color_pkg/build/lib/led_color_pkg
+[4.307s] copying led_color_pkg/__init__.py -> /root/deepracer_ws/color-detection-project/color_detection_ws/build/led_color_pkg/build/lib/led_color_pkg
+[4.316s] copying led_color_pkg/led_color_node.py -> /root/deepracer_ws/color-detection-project/color_detection_ws/build/led_color_pkg/build/lib/led_color_pkg
+[4.318s] running install
+[4.323s] running install_lib
+[4.327s] creating /root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/lib/python3.8/site-packages/led_color_pkg
+[4.331s] copying /root/deepracer_ws/color-detection-project/color_detection_ws/build/led_color_pkg/build/lib/led_color_pkg/__init__.py -> /root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/lib/python3.8/site-packages/led_color_pkg
+[4.331s] copying /root/deepracer_ws/color-detection-project/color_detection_ws/build/led_color_pkg/build/lib/led_color_pkg/led_color_node.py -> /root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/lib/python3.8/site-packages/led_color_pkg
+[4.333s] byte-compiling /root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/lib/python3.8/site-packages/led_color_pkg/__init__.py to __init__.cpython-38.pyc
+[4.351s] byte-compiling /root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/lib/python3.8/site-packages/led_color_pkg/led_color_node.py to led_color_node.cpython-38.pyc
+[4.354s] running install_data
+[4.357s] creating /root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/share
+[4.358s] creating /root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/share/ament_index
+[4.360s] creating /root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/share/ament_index/resource_index
+[4.361s] creating /root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/share/ament_index/resource_index/packages
+[4.362s] copying resource/led_color_pkg -> /root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/share/ament_index/resource_index/packages
+[4.363s] creating /root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/share/led_color_pkg
+[4.364s] copying package.xml -> /root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/share/led_color_pkg
+[4.365s] running install_egg_info
+[4.373s] Copying ../../build/led_color_pkg/led_color_pkg.egg-info to /root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/lib/python3.8/site-packages/led_color_pkg-0.0.0-py3.8.egg-info
+[4.385s] running install_scripts
+[4.454s] Installing led_color_node script to /root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/lib/led_color_pkg
+[4.455s] writing list of installed files to '/root/deepracer_ws/color-detection-project/color_detection_ws/build/led_color_pkg/install.log'
+[4.598s] Invoked command in '/root/deepracer_ws/color-detection-project/color_detection_ws/src/led_color_pkg' returned '0': PYTHONPATH=/root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/led_color_pkg build --build-base /root/deepracer_ws/color-detection-project/color_detection_ws/build/led_color_pkg/build install --prefix /root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg --record /root/deepracer_ws/color-detection-project/color_detection_ws/build/led_color_pkg/install.log --single-version-externally-managed

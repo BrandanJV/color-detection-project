@@ -1,0 +1,22 @@
+[3.489s] Invoking command in '/root/deepracer_ws/color-detection-project/color_detection_ws/src/navigation_pkg': PYTHONPATH=/root/deepracer_ws/color-detection-project/color_detection_ws/install/navigation_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation_pkg build --build-base /root/deepracer_ws/color-detection-project/color_detection_ws/build/navigation_pkg/build install --prefix /root/deepracer_ws/color-detection-project/color_detection_ws/install/navigation_pkg --record /root/deepracer_ws/color-detection-project/color_detection_ws/build/navigation_pkg/install.log --single-version-externally-managed
+[4.515s] running egg_info
+[4.517s] writing ../../build/navigation_pkg/navigation_pkg.egg-info/PKG-INFO
+[4.518s] writing dependency_links to ../../build/navigation_pkg/navigation_pkg.egg-info/dependency_links.txt
+[4.519s] writing entry points to ../../build/navigation_pkg/navigation_pkg.egg-info/entry_points.txt
+[4.519s] writing requirements to ../../build/navigation_pkg/navigation_pkg.egg-info/requires.txt
+[4.520s] writing top-level names to ../../build/navigation_pkg/navigation_pkg.egg-info/top_level.txt
+[4.651s] reading manifest file '../../build/navigation_pkg/navigation_pkg.egg-info/SOURCES.txt'
+[4.654s] writing manifest file '../../build/navigation_pkg/navigation_pkg.egg-info/SOURCES.txt'
+[4.664s] running build
+[4.671s] running build_py
+[4.672s] running install
+[4.672s] running install_lib
+[4.678s] running install_data
+[4.683s] copying package.xml -> /root/deepracer_ws/color-detection-project/color_detection_ws/install/navigation_pkg/share/navigation_pkg
+[4.684s] running install_egg_info
+[4.684s] removing '/root/deepracer_ws/color-detection-project/color_detection_ws/install/navigation_pkg/lib/python3.8/site-packages/navigation_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[4.684s] Copying ../../build/navigation_pkg/navigation_pkg.egg-info to /root/deepracer_ws/color-detection-project/color_detection_ws/install/navigation_pkg/lib/python3.8/site-packages/navigation_pkg-0.0.0-py3.8.egg-info
+[4.684s] running install_scripts
+[4.741s] Installing navigation_color_node script to /root/deepracer_ws/color-detection-project/color_detection_ws/install/navigation_pkg/lib/navigation_pkg
+[4.743s] writing list of installed files to '/root/deepracer_ws/color-detection-project/color_detection_ws/build/navigation_pkg/install.log'
+[4.823s] Invoked command in '/root/deepracer_ws/color-detection-project/color_detection_ws/src/navigation_pkg' returned '0': PYTHONPATH=/root/deepracer_ws/color-detection-project/color_detection_ws/install/navigation_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation_pkg build --build-base /root/deepracer_ws/color-detection-project/color_detection_ws/build/navigation_pkg/build install --prefix /root/deepracer_ws/color-detection-project/color_detection_ws/install/navigation_pkg --record /root/deepracer_ws/color-detection-project/color_detection_ws/build/navigation_pkg/install.log --single-version-externally-managed

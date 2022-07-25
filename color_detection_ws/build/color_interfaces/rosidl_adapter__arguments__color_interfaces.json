@@ -1,0 +1,6 @@
+{
+  "package_name": "color_interfaces",
+  "non_idl_tuples": [
+    "/root/deepracer_ws/color-detection-project/color_detection_ws/src/color_interfaces:msg/ColorFlag.msg"
+  ]
+}

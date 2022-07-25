@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC   -shared -Wl,-soname,libcolor_interfaces__rosidl_generator_c.so -o libcolor_interfaces__rosidl_generator_c.so CMakeFiles/color_interfaces__rosidl_generator_c.dir/rosidl_generator_c/color_interfaces/msg/detail/color_flag__functions.c.o  -Wl,-rpath,/opt/ros/foxy/lib: /opt/ros/foxy/lib/librosidl_runtime_c.so /opt/ros/foxy/lib/librcutils.so -ldl 

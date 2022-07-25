@@ -1,0 +1,3 @@
+[console_scripts]
+color_filter_node = color_filter_pkg.color_filter_node:main
+

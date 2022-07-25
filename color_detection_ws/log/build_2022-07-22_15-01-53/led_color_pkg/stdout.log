@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/led_color_pkg/led_color_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/led_color_pkg/led_color_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/led_color_pkg/led_color_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/led_color_pkg/led_color_pkg.egg-info/requires.txt
+writing top-level names to ../../build/led_color_pkg/led_color_pkg.egg-info/top_level.txt
+reading manifest file '../../build/led_color_pkg/led_color_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/led_color_pkg/led_color_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying package.xml -> /root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/share/led_color_pkg
+running install_egg_info
+removing '/root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/lib/python3.8/site-packages/led_color_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/led_color_pkg/led_color_pkg.egg-info to /root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/lib/python3.8/site-packages/led_color_pkg-0.0.0-py3.8.egg-info
+running install_scripts
+Installing led_color_node script to /root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/lib/led_color_pkg
+writing list of installed files to '/root/deepracer_ws/color-detection-project/color_detection_ws/build/led_color_pkg/install.log'

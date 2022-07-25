@@ -1,0 +1,197 @@
+[1.163s] Invoking command in '/root/deepracer_ws/color-detection-project/color_detection_ws/build/color_interfaces': CMAKE_PREFIX_PATH=/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/vision_interfaces_pkg:/opt/aws/deepracer/lib/deepracer_launcher:/opt/aws/deepracer/lib/web_video_server:/opt/aws/deepracer/lib/ctrl_pkg:/opt/aws/deepracer/lib/servo_pkg:/opt/aws/deepracer/lib/sensor_fusion_pkg:/opt/aws/deepracer/lib/rplidar_ros2:/opt/aws/deepracer/lib/rplidar_ros:/opt/aws/deepracer/lib/inference_pkg:/opt/aws/deepracer/lib/i2c_pkg:/opt/aws/deepracer/lib/camera_pkg:/opt/aws/deepracer/lib/deepracer_interfaces_pkg:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/nav_pkg:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/leds_pkg:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/filters_pkg:/opt/aws/deepracer/lib/webserver_pkg:/opt/aws/deepracer/lib/deepracer_systems_pkg:/opt/aws/deepracer/lib/usb_monitor_pkg:/opt/aws/deepracer/lib/status_led_pkg:/opt/aws/deepracer/lib/model_optimizer_pkg:/opt/aws/deepracer/lib/device_info_pkg:/opt/aws/deepracer/lib/deepracer_navigation_pkg:/opt/ros/foxy:/opt/aws/deepracer/lib/async_web_server_cpp /usr/bin/cmake /root/deepracer_ws/color-detection-project/color_detection_ws/src/color_interfaces -DCMAKE_INSTALL_PREFIX=/root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces
+[1.225s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.338s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[1.339s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.259s] -- Found rosidl_default_generators: 1.0.0 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.287s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.303s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.823s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.033s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[3.785s] -- Found ament_cmake_ros: 0.9.1 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[4.524s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.594s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.740s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") 
+[4.750s] -- Found python_cmake_module: 0.8.0 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[5.077s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.5", minimum required is "3.5") 
+[5.082s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.083s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[5.083s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[5.181s] -- Found PythonExtra: .so  
+[5.762s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.088s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.097s] -- Added test 'lint_cmake' to check CMake code style
+[6.102s] -- Added test 'xmllint' to check XML markup files
+[6.126s] -- Configuring done
+[6.263s] -- Generating done
+[6.274s] -- Build files have been written to: /root/deepracer_ws/color-detection-project/color_detection_ws/build/color_interfaces
+[6.302s] Invoked command in '/root/deepracer_ws/color-detection-project/color_detection_ws/build/color_interfaces' returned '0': CMAKE_PREFIX_PATH=/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/vision_interfaces_pkg:/opt/aws/deepracer/lib/deepracer_launcher:/opt/aws/deepracer/lib/web_video_server:/opt/aws/deepracer/lib/ctrl_pkg:/opt/aws/deepracer/lib/servo_pkg:/opt/aws/deepracer/lib/sensor_fusion_pkg:/opt/aws/deepracer/lib/rplidar_ros2:/opt/aws/deepracer/lib/rplidar_ros:/opt/aws/deepracer/lib/inference_pkg:/opt/aws/deepracer/lib/i2c_pkg:/opt/aws/deepracer/lib/camera_pkg:/opt/aws/deepracer/lib/deepracer_interfaces_pkg:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/nav_pkg:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/leds_pkg:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/filters_pkg:/opt/aws/deepracer/lib/webserver_pkg:/opt/aws/deepracer/lib/deepracer_systems_pkg:/opt/aws/deepracer/lib/usb_monitor_pkg:/opt/aws/deepracer/lib/status_led_pkg:/opt/aws/deepracer/lib/model_optimizer_pkg:/opt/aws/deepracer/lib/device_info_pkg:/opt/aws/deepracer/lib/deepracer_navigation_pkg:/opt/ros/foxy:/opt/aws/deepracer/lib/async_web_server_cpp /usr/bin/cmake /root/deepracer_ws/color-detection-project/color_detection_ws/src/color_interfaces -DCMAKE_INSTALL_PREFIX=/root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces
+[6.307s] Invoking command in '/root/deepracer_ws/color-detection-project/color_detection_ws/build/color_interfaces': CMAKE_PREFIX_PATH=/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/vision_interfaces_pkg:/opt/aws/deepracer/lib/deepracer_launcher:/opt/aws/deepracer/lib/web_video_server:/opt/aws/deepracer/lib/ctrl_pkg:/opt/aws/deepracer/lib/servo_pkg:/opt/aws/deepracer/lib/sensor_fusion_pkg:/opt/aws/deepracer/lib/rplidar_ros2:/opt/aws/deepracer/lib/rplidar_ros:/opt/aws/deepracer/lib/inference_pkg:/opt/aws/deepracer/lib/i2c_pkg:/opt/aws/deepracer/lib/camera_pkg:/opt/aws/deepracer/lib/deepracer_interfaces_pkg:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/nav_pkg:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/leds_pkg:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/filters_pkg:/opt/aws/deepracer/lib/webserver_pkg:/opt/aws/deepracer/lib/deepracer_systems_pkg:/opt/aws/deepracer/lib/usb_monitor_pkg:/opt/aws/deepracer/lib/status_led_pkg:/opt/aws/deepracer/lib/model_optimizer_pkg:/opt/aws/deepracer/lib/device_info_pkg:/opt/aws/deepracer/lib/deepracer_navigation_pkg:/opt/ros/foxy:/opt/aws/deepracer/lib/async_web_server_cpp /usr/bin/cmake --build /root/deepracer_ws/color-detection-project/color_detection_ws/build/color_interfaces -- -j2 -l2
+[6.476s] [35m[1mScanning dependencies of target color_interfaces__cpp[0m
+[6.495s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.510s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.441s] [35m[1mScanning dependencies of target color_interfaces__rosidl_generator_c[0m
+[8.630s] [  6%] Built target color_interfaces__cpp
+[8.686s] [  9%] [32mBuilding C object CMakeFiles/color_interfaces__rosidl_generator_c.dir/rosidl_generator_c/color_interfaces/msg/detail/color_flag__functions.c.o[0m
+[8.705s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[9.068s] [ 16%] [32m[1mLinking C shared library libcolor_interfaces__rosidl_generator_c.so[0m
+[9.340s] [ 16%] Built target color_interfaces__rosidl_generator_c
+[9.431s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.309s] [35m[1mScanning dependencies of target color_interfaces__rosidl_typesupport_cpp[0m
+[10.654s] [ 22%] [32mBuilding CXX object CMakeFiles/color_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/color_interfaces/msg/color_flag__type_support.cpp.o[0m
+[11.496s] [35m[1mScanning dependencies of target color_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[11.782s] [ 25%] [32mBuilding CXX object CMakeFiles/color_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/color_interfaces/msg/detail/dds_fastrtps/color_flag__type_support.cpp.o[0m
+[12.907s] [ 29%] [32m[1mLinking CXX shared library libcolor_interfaces__rosidl_typesupport_cpp.so[0m
+[13.149s] [ 29%] Built target color_interfaces__rosidl_typesupport_cpp
+[13.184s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[14.870s] [35m[1mScanning dependencies of target color_interfaces__rosidl_typesupport_introspection_c[0m
+[15.071s] [ 35%] [32m[1mLinking CXX shared library libcolor_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[15.124s] [ 38%] [32mBuilding C object CMakeFiles/color_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/color_interfaces/msg/detail/color_flag__type_support.c.o[0m
+[15.238s] [ 41%] [32m[1mLinking C shared library libcolor_interfaces__rosidl_typesupport_introspection_c.so[0m
+[15.448s] [ 41%] Built target color_interfaces__rosidl_typesupport_introspection_c
+[15.532s] [ 45%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[15.919s] [ 45%] Built target color_interfaces__rosidl_typesupport_fastrtps_cpp
+[15.998s] [ 48%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[17.166s] [35m[1mScanning dependencies of target color_interfaces__rosidl_typesupport_c[0m
+[17.208s] [ 51%] [32mBuilding CXX object CMakeFiles/color_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/color_interfaces/msg/color_flag__type_support.cpp.o[0m
+[17.297s] [ 54%] [32m[1mLinking CXX shared library libcolor_interfaces__rosidl_typesupport_c.so[0m
+[17.434s] [ 54%] Built target color_interfaces__rosidl_typesupport_c
+[17.469s] [ 58%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[17.514s] [35m[1mScanning dependencies of target color_interfaces__rosidl_typesupport_introspection_cpp[0m
+[17.719s] [ 61%] [32mBuilding CXX object CMakeFiles/color_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/color_interfaces/msg/detail/color_flag__type_support.cpp.o[0m
+[18.664s] [35m[1mScanning dependencies of target color_interfaces__rosidl_typesupport_fastrtps_c[0m
+[18.880s] [ 64%] [32mBuilding CXX object CMakeFiles/color_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/color_interfaces/msg/detail/color_flag__type_support_c.cpp.o[0m
+[18.901s] [ 67%] [32m[1mLinking CXX shared library libcolor_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[19.198s] [ 67%] Built target color_interfaces__rosidl_typesupport_introspection_cpp
+[20.517s] [ 70%] [32m[1mLinking CXX shared library libcolor_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[20.922s] [ 70%] Built target color_interfaces__rosidl_typesupport_fastrtps_c
+[20.951s] [35m[1mScanning dependencies of target color_interfaces[0m
+[20.988s] [ 70%] Built target color_interfaces
+[21.031s] [35m[1mScanning dependencies of target color_interfaces__py[0m
+[21.070s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[23.000s] [ 74%] Built target color_interfaces__py
+[23.033s] [35m[1mScanning dependencies of target color_interfaces__python[0m
+[23.303s] [ 77%] [32mBuilding C object CMakeFiles/color_interfaces__python.dir/rosidl_generator_py/color_interfaces/msg/_color_flag_s.c.o[0m
+[23.992s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/color_interfaces/libcolor_interfaces__python.so[0m
+[24.136s] [ 80%] Built target color_interfaces__python
+[24.171s] [35m[1mScanning dependencies of target color_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[24.175s] [35m[1mScanning dependencies of target color_interfaces__rosidl_typesupport_c__pyext[0m
+[24.407s] [ 83%] [32mBuilding C object CMakeFiles/color_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/color_interfaces/_color_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[24.416s] [ 87%] [32mBuilding C object CMakeFiles/color_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/color_interfaces/_color_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[24.744s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/color_interfaces/color_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[24.757s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/color_interfaces/color_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[24.863s] [ 93%] Built target color_interfaces__rosidl_typesupport_c__pyext
+[24.889s] [ 93%] Built target color_interfaces__rosidl_typesupport_introspection_c__pyext
+[24.898s] [35m[1mScanning dependencies of target color_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[24.962s] [ 96%] [32mBuilding C object CMakeFiles/color_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/color_interfaces/_color_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[25.277s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/color_interfaces/color_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[25.501s] [100%] Built target color_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[25.538s] Invoked command in '/root/deepracer_ws/color-detection-project/color_detection_ws/build/color_interfaces' returned '0': CMAKE_PREFIX_PATH=/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/vision_interfaces_pkg:/opt/aws/deepracer/lib/deepracer_launcher:/opt/aws/deepracer/lib/web_video_server:/opt/aws/deepracer/lib/ctrl_pkg:/opt/aws/deepracer/lib/servo_pkg:/opt/aws/deepracer/lib/sensor_fusion_pkg:/opt/aws/deepracer/lib/rplidar_ros2:/opt/aws/deepracer/lib/rplidar_ros:/opt/aws/deepracer/lib/inference_pkg:/opt/aws/deepracer/lib/i2c_pkg:/opt/aws/deepracer/lib/camera_pkg:/opt/aws/deepracer/lib/deepracer_interfaces_pkg:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/nav_pkg:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/leds_pkg:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/filters_pkg:/opt/aws/deepracer/lib/webserver_pkg:/opt/aws/deepracer/lib/deepracer_systems_pkg:/opt/aws/deepracer/lib/usb_monitor_pkg:/opt/aws/deepracer/lib/status_led_pkg:/opt/aws/deepracer/lib/model_optimizer_pkg:/opt/aws/deepracer/lib/device_info_pkg:/opt/aws/deepracer/lib/deepracer_navigation_pkg:/opt/ros/foxy:/opt/aws/deepracer/lib/async_web_server_cpp /usr/bin/cmake --build /root/deepracer_ws/color-detection-project/color_detection_ws/build/color_interfaces -- -j2 -l2
+[25.754s] Invoking command in '/root/deepracer_ws/color-detection-project/color_detection_ws/build/color_interfaces': CMAKE_PREFIX_PATH=/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/vision_interfaces_pkg:/opt/aws/deepracer/lib/deepracer_launcher:/opt/aws/deepracer/lib/web_video_server:/opt/aws/deepracer/lib/ctrl_pkg:/opt/aws/deepracer/lib/servo_pkg:/opt/aws/deepracer/lib/sensor_fusion_pkg:/opt/aws/deepracer/lib/rplidar_ros2:/opt/aws/deepracer/lib/rplidar_ros:/opt/aws/deepracer/lib/inference_pkg:/opt/aws/deepracer/lib/i2c_pkg:/opt/aws/deepracer/lib/camera_pkg:/opt/aws/deepracer/lib/deepracer_interfaces_pkg:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/nav_pkg:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/leds_pkg:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/filters_pkg:/opt/aws/deepracer/lib/webserver_pkg:/opt/aws/deepracer/lib/deepracer_systems_pkg:/opt/aws/deepracer/lib/usb_monitor_pkg:/opt/aws/deepracer/lib/status_led_pkg:/opt/aws/deepracer/lib/model_optimizer_pkg:/opt/aws/deepracer/lib/device_info_pkg:/opt/aws/deepracer/lib/deepracer_navigation_pkg:/opt/ros/foxy:/opt/aws/deepracer/lib/async_web_server_cpp /usr/bin/cmake --install /root/deepracer_ws/color-detection-project/color_detection_ws/build/color_interfaces
+[25.783s] -- Install configuration: ""
+[25.784s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/ament_index/resource_index/rosidl_interfaces/color_interfaces
+[25.784s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces
+[25.785s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg
+[25.786s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/rosidl_generator_c__visibility_control.h
+[25.786s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/color_flag.h
+[25.787s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail
+[25.787s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail/color_flag__functions.c
+[25.940s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail/color_flag__functions.h
+[25.941s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail/color_flag__struct.h
+[25.942s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail/color_flag__type_support.h
+[25.943s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/environment/library_path.sh
+[25.943s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/environment/library_path.dsv
+[25.944s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/libcolor_interfaces__rosidl_generator_c.so
+[25.949s] -- Set runtime path of "/root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/libcolor_interfaces__rosidl_generator_c.so" to ""
+[25.950s] -- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces
+[25.950s] -- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg
+[25.950s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[25.957s] -- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail
+[25.958s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail/color_flag__rosidl_typesupport_fastrtps_c.h
+[25.959s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/libcolor_interfaces__rosidl_typesupport_fastrtps_c.so
+[25.959s] -- Set runtime path of "/root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/libcolor_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[25.960s] -- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces
+[25.960s] -- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg
+[25.962s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[25.963s] -- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail
+[25.963s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail/color_flag__rosidl_typesupport_fastrtps_cpp.hpp
+[25.964s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail/dds_fastrtps
+[25.967s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/libcolor_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[25.968s] -- Set runtime path of "/root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/libcolor_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[25.968s] -- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces
+[25.969s] -- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg
+[25.969s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[25.970s] -- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail
+[25.970s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail/color_flag__rosidl_typesupport_introspection_c.h
+[25.971s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail/color_flag__type_support.c
+[25.978s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/libcolor_interfaces__rosidl_typesupport_introspection_c.so
+[25.980s] -- Set runtime path of "/root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/libcolor_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[25.980s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/libcolor_interfaces__rosidl_typesupport_c.so
+[25.980s] -- Set runtime path of "/root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/libcolor_interfaces__rosidl_typesupport_c.so" to ""
+[25.981s] -- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces
+[25.981s] -- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg
+[25.982s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/color_flag.hpp
+[25.982s] -- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail
+[25.983s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail/color_flag__builder.hpp
+[25.983s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail/color_flag__struct.hpp
+[25.983s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail/color_flag__traits.hpp
+[25.984s] -- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces
+[25.985s] -- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg
+[25.986s] -- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail
+[25.986s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail/color_flag__rosidl_typesupport_introspection_cpp.hpp
+[25.986s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail/color_flag__type_support.cpp
+[25.987s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/libcolor_interfaces__rosidl_typesupport_introspection_cpp.so
+[25.987s] -- Set runtime path of "/root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/libcolor_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[25.988s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/libcolor_interfaces__rosidl_typesupport_cpp.so
+[25.989s] -- Set runtime path of "/root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/libcolor_interfaces__rosidl_typesupport_cpp.so" to ""
+[25.990s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/environment/pythonpath.sh
+[25.991s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/environment/pythonpath.dsv
+[25.991s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/python3.8/site-packages/color_interfaces/__init__.py
+[26.294s] Compiling '/root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/python3.8/site-packages/color_interfaces/__init__.py'...
+[26.313s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/python3.8/site-packages/color_interfaces/msg
+[26.314s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/python3.8/site-packages/color_interfaces/msg/_color_flag.py
+[26.471s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/python3.8/site-packages/color_interfaces/msg/_color_flag_s.c
+[26.473s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/python3.8/site-packages/color_interfaces/msg/__init__.py
+[26.474s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/python3.8/site-packages/color_interfaces/color_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[26.478s] -- Set runtime path of "/root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/python3.8/site-packages/color_interfaces/color_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[26.479s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/python3.8/site-packages/color_interfaces/color_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[26.482s] -- Set runtime path of "/root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/python3.8/site-packages/color_interfaces/color_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[26.483s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/python3.8/site-packages/color_interfaces/color_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[26.486s] -- Set runtime path of "/root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/python3.8/site-packages/color_interfaces/color_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[26.487s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/libcolor_interfaces__python.so
+[26.489s] -- Set runtime path of "/root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/libcolor_interfaces__python.so" to ""
+[26.490s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/msg/ColorFlag.idl
+[26.491s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/msg/ColorFlag.msg
+[26.491s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/ament_index/resource_index/package_run_dependencies/color_interfaces
+[26.492s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/ament_index/resource_index/parent_prefix_path/color_interfaces
+[26.492s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/environment/ament_prefix_path.sh
+[26.493s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/environment/ament_prefix_path.dsv
+[26.494s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/environment/path.sh
+[26.494s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/environment/path.dsv
+[26.495s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/local_setup.bash
+[26.495s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/local_setup.sh
+[26.496s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/local_setup.zsh
+[26.496s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/local_setup.dsv
+[26.497s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/package.dsv
+[26.497s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/ament_index/resource_index/packages/color_interfaces
+[26.498s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/color_interfaces__rosidl_generator_cExport.cmake
+[26.499s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/color_interfaces__rosidl_generator_cExport-noconfig.cmake
+[26.499s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/color_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[26.500s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/color_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[26.500s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/color_interfaces__rosidl_typesupport_cExport.cmake
+[26.501s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/color_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[26.503s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/color_interfaces__rosidl_generator_cppExport.cmake
+[26.503s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/color_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[26.504s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/color_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[26.504s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/color_interfaces__rosidl_typesupport_cppExport.cmake
+[26.505s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/color_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[26.505s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/rosidl_cmake-extras.cmake
+[26.506s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.506s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[26.506s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[26.507s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.507s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[26.507s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[26.508s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/color_interfacesConfig.cmake
+[26.508s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/color_interfacesConfig-version.cmake
+[26.508s] -- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/package.xml
+[26.522s] Invoked command in '/root/deepracer_ws/color-detection-project/color_detection_ws/build/color_interfaces' returned '0': CMAKE_PREFIX_PATH=/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/vision_interfaces_pkg:/opt/aws/deepracer/lib/deepracer_launcher:/opt/aws/deepracer/lib/web_video_server:/opt/aws/deepracer/lib/ctrl_pkg:/opt/aws/deepracer/lib/servo_pkg:/opt/aws/deepracer/lib/sensor_fusion_pkg:/opt/aws/deepracer/lib/rplidar_ros2:/opt/aws/deepracer/lib/rplidar_ros:/opt/aws/deepracer/lib/inference_pkg:/opt/aws/deepracer/lib/i2c_pkg:/opt/aws/deepracer/lib/camera_pkg:/opt/aws/deepracer/lib/deepracer_interfaces_pkg:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/nav_pkg:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/leds_pkg:/root/deepracer_ws/video_filtering_project/video_filtering_ws/install/filters_pkg:/opt/aws/deepracer/lib/webserver_pkg:/opt/aws/deepracer/lib/deepracer_systems_pkg:/opt/aws/deepracer/lib/usb_monitor_pkg:/opt/aws/deepracer/lib/status_led_pkg:/opt/aws/deepracer/lib/model_optimizer_pkg:/opt/aws/deepracer/lib/device_info_pkg:/opt/aws/deepracer/lib/deepracer_navigation_pkg:/opt/ros/foxy:/opt/aws/deepracer/lib/async_web_server_cpp /usr/bin/cmake --install /root/deepracer_ws/color-detection-project/color_detection_ws/build/color_interfaces
