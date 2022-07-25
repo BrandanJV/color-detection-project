@@ -4,7 +4,7 @@
 Color Filtering Package is the package responsible for detecting either, green yellow or red color using the camera in the AWS DeepRacer
 
 ## Installation.
-Follow the next steps to install the Color Detection Project.
+Follow the next steps to install the Color Filter Package.
 
 ### Prerequisites
 The Color Detection Project uses the preinstalled packages that come from default in the AWS DeepRacer. For more information about the preinstalled set of packages and libraries on the DeepRacer device, and about installing the required build systems, see [Getting started with AWS DeepRacer OpenSource](https://github.com/aws-deepracer/aws-deepracer-launcher/blob/main/getting-started.md).
@@ -17,10 +17,6 @@ Follow the next steps as root user to download the project:
 1. Switch to root user:
 
         sudo su
-
-1. Stop the `deepracer-core.service` that is currently running on the device:
-
-        systemctl stop deepracer-core
         
 1. Source the ROS 2 Foxy setup bash script:
 
