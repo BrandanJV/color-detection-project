@@ -41,8 +41,6 @@ class VideoFilterNode(Node):
 		self.highYellow = np.array([32, 255, 255], np.uint8)
 		self.lowRed = np.array([0, 100, 20], np.uint8)
 		self.highRed = np.array([10, 255, 255], np.uint8)
-		self.led_scaling_factor = 39215
-		
 		
 										
 	def image_callback(self, msg):
