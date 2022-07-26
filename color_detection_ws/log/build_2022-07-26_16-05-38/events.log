@@ -1,0 +1,295 @@
+[0.000000] (-) TimerEvent: {}
+[0.000567] (color_filter_pkg) JobQueued: {'identifier': 'color_filter_pkg', 'dependencies': OrderedDict()}
+[0.000709] (color_interfaces) JobQueued: {'identifier': 'color_interfaces', 'dependencies': OrderedDict()}
+[0.000798] (led_color_pkg) JobQueued: {'identifier': 'led_color_pkg', 'dependencies': OrderedDict()}
+[0.000881] (navigation_pkg) JobQueued: {'identifier': 'navigation_pkg', 'dependencies': OrderedDict()}
+[0.000961] (color_filter_pkg) JobStarted: {'identifier': 'color_filter_pkg'}
+[0.064456] (color_interfaces) JobStarted: {'identifier': 'color_interfaces'}
+[0.094441] (-) TimerEvent: {}
+[0.198265] (-) TimerEvent: {}
+[0.299372] (-) TimerEvent: {}
+[0.400324] (-) TimerEvent: {}
+[0.500985] (-) TimerEvent: {}
+[0.601672] (-) TimerEvent: {}
+[0.702292] (-) TimerEvent: {}
+[0.802955] (-) TimerEvent: {}
+[0.903653] (-) TimerEvent: {}
+[1.004392] (-) TimerEvent: {}
+[1.073543] (color_interfaces) JobProgress: {'identifier': 'color_interfaces', 'progress': 'cmake'}
+[1.076011] (color_interfaces) JobProgress: {'identifier': 'color_interfaces', 'progress': 'build'}
+[1.078916] (color_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/deepracer_ws/color-detection-project/color_detection_ws/build/color_interfaces', '--', '-j2', '-l2'], 'cwd': '/root/deepracer_ws/color-detection-project/color_detection_ws/build/color_interfaces', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/deepracer_ws/color-detection-project/color_detection_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/su'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'deepracer'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/deepracer_ws/color-detection-project/color_detection_ws/build/color_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.110026] (-) TimerEvent: {}
+[1.212837] (-) TimerEvent: {}
+[1.299728] (color_interfaces) StdoutLine: {'line': b'[  9%] Built target color_interfaces__rosidl_generator_c\n'}
+[1.312995] (-) TimerEvent: {}
+[1.319030] (color_interfaces) StdoutLine: {'line': b'[ 12%] Built target color_interfaces__cpp\n'}
+[1.413203] (-) TimerEvent: {}
+[1.419685] (color_interfaces) StdoutLine: {'line': b'[ 22%] Built target color_interfaces__rosidl_typesupport_introspection_c\n'}
+[1.451173] (color_interfaces) StdoutLine: {'line': b'[ 32%] Built target color_interfaces__rosidl_typesupport_c\n'}
+[1.513409] (-) TimerEvent: {}
+[1.521443] (color_interfaces) StdoutLine: {'line': b'[ 41%] Built target color_interfaces__rosidl_typesupport_cpp\n'}
+[1.594496] (color_interfaces) StdoutLine: {'line': b'[ 51%] Built target color_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[1.613566] (-) TimerEvent: {}
+[1.616330] (color_interfaces) StdoutLine: {'line': b'[ 61%] Built target color_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.696217] (color_interfaces) StdoutLine: {'line': b'[ 70%] Built target color_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[1.713873] (-) TimerEvent: {}
+[1.767527] (color_interfaces) StdoutLine: {'line': b'[ 70%] Built target color_interfaces\n'}
+[1.814069] (-) TimerEvent: {}
+[1.834759] (color_interfaces) StdoutLine: {'line': b'[ 74%] Built target color_interfaces__py\n'}
+[1.914261] (-) TimerEvent: {}
+[1.929555] (color_interfaces) StdoutLine: {'line': b'[ 80%] Built target color_interfaces__python\n'}
+[2.014446] (-) TimerEvent: {}
+[2.019864] (color_interfaces) StdoutLine: {'line': b'[ 87%] Built target color_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[2.079971] (color_interfaces) StdoutLine: {'line': b'[ 93%] Built target color_interfaces__rosidl_typesupport_c__pyext\n'}
+[2.114644] (-) TimerEvent: {}
+[2.132646] (color_interfaces) StdoutLine: {'line': b'[100%] Built target color_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.199549] (color_interfaces) CommandEnded: {'returncode': 0}
+[2.215177] (-) TimerEvent: {}
+[2.317484] (-) TimerEvent: {}
+[2.348960] (color_interfaces) JobProgress: {'identifier': 'color_interfaces', 'progress': 'install'}
+[2.390798] (color_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/deepracer_ws/color-detection-project/color_detection_ws/build/color_interfaces'], 'cwd': '/root/deepracer_ws/color-detection-project/color_detection_ws/build/color_interfaces', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/deepracer_ws/color-detection-project/color_detection_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/su'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'deepracer'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/deepracer_ws/color-detection-project/color_detection_ws/build/color_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[2.417751] (-) TimerEvent: {}
+[2.424135] (color_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.424955] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/ament_index/resource_index/rosidl_interfaces/color_interfaces\n'}
+[2.425774] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces\n'}
+[2.426439] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg\n'}
+[2.426924] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/color_flag.h\n'}
+[2.427242] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail\n'}
+[2.427722] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail/color_flag__functions.c\n'}
+[2.428208] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail/color_flag__functions.h\n'}
+[2.428836] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail/color_flag__struct.h\n'}
+[2.434191] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail/color_flag__type_support.h\n'}
+[2.434816] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.435176] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/environment/library_path.sh\n'}
+[2.435915] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/environment/library_path.dsv\n'}
+[2.441964] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/libcolor_interfaces__rosidl_generator_c.so\n'}
+[2.442332] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces\n'}
+[2.443196] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg\n'}
+[2.443699] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail\n'}
+[2.444005] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail/color_flag__rosidl_typesupport_fastrtps_c.h\n'}
+[2.444298] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.444587] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/libcolor_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[2.444877] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces\n'}
+[2.445162] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg\n'}
+[2.447199] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail\n'}
+[2.447787] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail/color_flag__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.448097] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail/dds_fastrtps\n'}
+[2.448389] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.448684] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/libcolor_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.448974] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces\n'}
+[2.449258] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg\n'}
+[2.449543] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail\n'}
+[2.449898] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail/color_flag__rosidl_typesupport_introspection_c.h\n'}
+[2.450200] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail/color_flag__type_support.c\n'}
+[2.450489] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.450779] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/libcolor_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[2.451111] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/libcolor_interfaces__rosidl_typesupport_c.so\n'}
+[2.451399] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces\n'}
+[2.451683] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg\n'}
+[2.465748] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/color_flag.hpp\n'}
+[2.466322] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail\n'}
+[2.466623] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail/color_flag__builder.hpp\n'}
+[2.466915] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail/color_flag__struct.hpp\n'}
+[2.467253] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail/color_flag__traits.hpp\n'}
+[2.467551] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces\n'}
+[2.467839] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg\n'}
+[2.468124] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail\n'}
+[2.468407] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail/color_flag__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.468693] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/include/color_interfaces/msg/detail/color_flag__type_support.cpp\n'}
+[2.468977] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/libcolor_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[2.469261] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/libcolor_interfaces__rosidl_typesupport_cpp.so\n'}
+[2.474930] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/environment/pythonpath.sh\n'}
+[2.475476] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/environment/pythonpath.dsv\n'}
+[2.475774] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/python3.8/site-packages/color_interfaces/__init__.py\n'}
+[2.517901] (-) TimerEvent: {}
+[2.568507] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/python3.8/site-packages/color_interfaces/msg\n'}
+[2.569198] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/python3.8/site-packages/color_interfaces/msg/__init__.py\n'}
+[2.574794] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/python3.8/site-packages/color_interfaces/msg/_color_flag.py\n'}
+[2.576524] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/python3.8/site-packages/color_interfaces/msg/_color_flag_s.c\n'}
+[2.577077] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/python3.8/site-packages/color_interfaces/color_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.577377] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/python3.8/site-packages/color_interfaces/color_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.578146] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/python3.8/site-packages/color_interfaces/color_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.578744] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/lib/libcolor_interfaces__python.so\n'}
+[2.579578] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/msg/ColorFlag.idl\n'}
+[2.580445] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/msg/ColorFlag.msg\n'}
+[2.581519] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/ament_index/resource_index/package_run_dependencies/color_interfaces\n'}
+[2.583977] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/ament_index/resource_index/parent_prefix_path/color_interfaces\n'}
+[2.584345] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/environment/ament_prefix_path.sh\n'}
+[2.584693] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/environment/ament_prefix_path.dsv\n'}
+[2.584994] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/environment/path.sh\n'}
+[2.585285] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/environment/path.dsv\n'}
+[2.585578] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/local_setup.bash\n'}
+[2.587227] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/local_setup.sh\n'}
+[2.592412] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/local_setup.zsh\n'}
+[2.593546] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/local_setup.dsv\n'}
+[2.595136] (color_interfaces) StdoutLine: {'line': b'-- Installing: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/package.dsv\n'}
+[2.595506] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/ament_index/resource_index/packages/color_interfaces\n'}
+[2.596171] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/color_interfaces__rosidl_generator_cExport.cmake\n'}
+[2.598813] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/color_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.599188] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/color_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.599480] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/color_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.599783] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/color_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[2.600075] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/color_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.600361] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/color_interfaces__rosidl_generator_cppExport.cmake\n'}
+[2.600649] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/color_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.600939] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/color_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.601227] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/color_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[2.601512] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/color_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.602011] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[2.608142] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.608752] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.609201] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.610085] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.610875] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.611515] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.613458] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/color_interfacesConfig.cmake\n'}
+[2.614016] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/cmake/color_interfacesConfig-version.cmake\n'}
+[2.614879] (color_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_interfaces/share/color_interfaces/package.xml\n'}
+[2.617078] (color_interfaces) CommandEnded: {'returncode': 0}
+[2.621452] (-) TimerEvent: {}
+[2.760353] (-) TimerEvent: {}
+[2.861295] (-) TimerEvent: {}
+[2.965902] (-) TimerEvent: {}
+[3.064279] (color_interfaces) JobEnded: {'identifier': 'color_interfaces', 'rc': 0}
+[3.068193] (-) TimerEvent: {}
+[3.068584] (led_color_pkg) JobStarted: {'identifier': 'led_color_pkg'}
+[3.132144] (color_filter_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/color_filter_pkg', 'build', '--build-base', '/root/deepracer_ws/color-detection-project/color_detection_ws/build/color_filter_pkg/build', 'install', '--prefix', '/root/deepracer_ws/color-detection-project/color_detection_ws/install/color_filter_pkg', '--record', '/root/deepracer_ws/color-detection-project/color_detection_ws/build/color_filter_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/root/deepracer_ws/color-detection-project/color_detection_ws/src/color_filter_pkg', 'env': {'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/root/deepracer_ws/color-detection-project/color_detection_ws', 'ROS_PYTHON_VERSION': '3', 'COLORTERM': 'truecolor', 'SUDO_UID': '1000', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/su', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'SUDO_USER': 'deepracer', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/root/deepracer_ws/color-detection-project/color_detection_ws/build/color_filter_pkg', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/root/deepracer_ws/color-detection-project/color_detection_ws/install/color_filter_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[3.168496] (-) TimerEvent: {}
+[3.273789] (-) TimerEvent: {}
+[3.374473] (-) TimerEvent: {}
+[3.475913] (-) TimerEvent: {}
+[3.576558] (-) TimerEvent: {}
+[3.677216] (-) TimerEvent: {}
+[3.777923] (-) TimerEvent: {}
+[3.878628] (-) TimerEvent: {}
+[3.979256] (-) TimerEvent: {}
+[4.079894] (-) TimerEvent: {}
+[4.080741] (color_filter_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[4.084164] (color_filter_pkg) StdoutLine: {'line': b'writing ../../build/color_filter_pkg/color_filter_pkg.egg-info/PKG-INFO\n'}
+[4.085963] (color_filter_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/color_filter_pkg/color_filter_pkg.egg-info/dependency_links.txt\n'}
+[4.087530] (color_filter_pkg) StdoutLine: {'line': b'writing entry points to ../../build/color_filter_pkg/color_filter_pkg.egg-info/entry_points.txt\n'}
+[4.088963] (color_filter_pkg) StdoutLine: {'line': b'writing requirements to ../../build/color_filter_pkg/color_filter_pkg.egg-info/requires.txt\n'}
+[4.090269] (color_filter_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/color_filter_pkg/color_filter_pkg.egg-info/top_level.txt\n'}
+[4.180067] (-) TimerEvent: {}
+[4.280902] (-) TimerEvent: {}
+[4.330356] (color_filter_pkg) StdoutLine: {'line': b"reading manifest file '../../build/color_filter_pkg/color_filter_pkg.egg-info/SOURCES.txt'\n"}
+[4.337966] (color_filter_pkg) StdoutLine: {'line': b"writing manifest file '../../build/color_filter_pkg/color_filter_pkg.egg-info/SOURCES.txt'\n"}
+[4.338507] (color_filter_pkg) StdoutLine: {'line': b'running build\n'}
+[4.338801] (color_filter_pkg) StdoutLine: {'line': b'running build_py\n'}
+[4.339082] (color_filter_pkg) StdoutLine: {'line': b'running install\n'}
+[4.340578] (color_filter_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[4.346414] (color_filter_pkg) StdoutLine: {'line': b'running install_data\n'}
+[4.349547] (color_filter_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.356894] (color_filter_pkg) StdoutLine: {'line': b"removing '/root/deepracer_ws/color-detection-project/color_detection_ws/install/color_filter_pkg/lib/python3.8/site-packages/color_filter_pkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[4.362050] (color_filter_pkg) StdoutLine: {'line': b'Copying ../../build/color_filter_pkg/color_filter_pkg.egg-info to /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_filter_pkg/lib/python3.8/site-packages/color_filter_pkg-0.0.0-py3.8.egg-info\n'}
+[4.364431] (color_filter_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[4.383931] (-) TimerEvent: {}
+[4.484565] (-) TimerEvent: {}
+[4.529987] (color_filter_pkg) StdoutLine: {'line': b'Installing color_filter_node script to /root/deepracer_ws/color-detection-project/color_detection_ws/install/color_filter_pkg/lib/color_filter_pkg\n'}
+[4.546897] (color_filter_pkg) StdoutLine: {'line': b"writing list of installed files to '/root/deepracer_ws/color-detection-project/color_detection_ws/build/color_filter_pkg/install.log'\n"}
+[4.586066] (-) TimerEvent: {}
+[4.686819] (-) TimerEvent: {}
+[4.767794] (color_filter_pkg) CommandEnded: {'returncode': 0}
+[4.787633] (-) TimerEvent: {}
+[4.833249] (color_filter_pkg) JobEnded: {'identifier': 'color_filter_pkg', 'rc': 0}
+[4.836079] (navigation_pkg) JobStarted: {'identifier': 'navigation_pkg'}
+[4.888221] (-) TimerEvent: {}
+[4.989151] (-) TimerEvent: {}
+[5.090056] (-) TimerEvent: {}
+[5.190717] (-) TimerEvent: {}
+[5.291396] (-) TimerEvent: {}
+[5.392091] (-) TimerEvent: {}
+[5.492984] (-) TimerEvent: {}
+[5.593730] (-) TimerEvent: {}
+[5.694415] (-) TimerEvent: {}
+[5.797799] (-) TimerEvent: {}
+[5.898495] (-) TimerEvent: {}
+[5.999154] (-) TimerEvent: {}
+[6.107835] (-) TimerEvent: {}
+[6.215484] (-) TimerEvent: {}
+[6.316252] (-) TimerEvent: {}
+[6.417087] (-) TimerEvent: {}
+[6.517769] (-) TimerEvent: {}
+[6.618465] (-) TimerEvent: {}
+[6.719209] (-) TimerEvent: {}
+[6.819046] (led_color_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/led_color_pkg', 'build', '--build-base', '/root/deepracer_ws/color-detection-project/color_detection_ws/build/led_color_pkg/build', 'install', '--prefix', '/root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg', '--record', '/root/deepracer_ws/color-detection-project/color_detection_ws/build/led_color_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/root/deepracer_ws/color-detection-project/color_detection_ws/src/led_color_pkg', 'env': {'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/root/deepracer_ws/color-detection-project/color_detection_ws', 'ROS_PYTHON_VERSION': '3', 'COLORTERM': 'truecolor', 'SUDO_UID': '1000', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/su', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'SUDO_USER': 'deepracer', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/root/deepracer_ws/color-detection-project/color_detection_ws/build/led_color_pkg', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[6.826120] (-) TimerEvent: {}
+[6.940664] (-) TimerEvent: {}
+[7.046058] (-) TimerEvent: {}
+[7.151931] (-) TimerEvent: {}
+[7.252637] (-) TimerEvent: {}
+[7.353295] (-) TimerEvent: {}
+[7.454001] (-) TimerEvent: {}
+[7.554667] (-) TimerEvent: {}
+[7.655332] (-) TimerEvent: {}
+[7.757019] (-) TimerEvent: {}
+[7.857967] (-) TimerEvent: {}
+[7.964492] (-) TimerEvent: {}
+[8.071821] (-) TimerEvent: {}
+[8.174210] (-) TimerEvent: {}
+[8.276287] (-) TimerEvent: {}
+[8.376955] (-) TimerEvent: {}
+[8.477684] (-) TimerEvent: {}
+[8.578333] (-) TimerEvent: {}
+[8.634481] (navigation_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/navigation_pkg', 'build', '--build-base', '/root/deepracer_ws/color-detection-project/color_detection_ws/build/navigation_pkg/build', 'install', '--prefix', '/root/deepracer_ws/color-detection-project/color_detection_ws/install/navigation_pkg', '--record', '/root/deepracer_ws/color-detection-project/color_detection_ws/build/navigation_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/root/deepracer_ws/color-detection-project/color_detection_ws/src/navigation_pkg', 'env': {'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/root/deepracer_ws/color-detection-project/color_detection_ws', 'ROS_PYTHON_VERSION': '3', 'COLORTERM': 'truecolor', 'SUDO_UID': '1000', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/su', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'SUDO_USER': 'deepracer', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/root/deepracer_ws/color-detection-project/color_detection_ws/build/navigation_pkg', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/root/deepracer_ws/color-detection-project/color_detection_ws/install/navigation_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[8.658984] (led_color_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[8.662187] (led_color_pkg) StdoutLine: {'line': b'writing ../../build/led_color_pkg/led_color_pkg.egg-info/PKG-INFO\n'}
+[8.663988] (led_color_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/led_color_pkg/led_color_pkg.egg-info/dependency_links.txt\n'}
+[8.665601] (led_color_pkg) StdoutLine: {'line': b'writing entry points to ../../build/led_color_pkg/led_color_pkg.egg-info/entry_points.txt\n'}
+[8.667122] (led_color_pkg) StdoutLine: {'line': b'writing requirements to ../../build/led_color_pkg/led_color_pkg.egg-info/requires.txt\n'}
+[8.668429] (led_color_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/led_color_pkg/led_color_pkg.egg-info/top_level.txt\n'}
+[8.678520] (-) TimerEvent: {}
+[8.779264] (-) TimerEvent: {}
+[8.809580] (led_color_pkg) StdoutLine: {'line': b"reading manifest file '../../build/led_color_pkg/led_color_pkg.egg-info/SOURCES.txt'\n"}
+[8.815546] (led_color_pkg) StdoutLine: {'line': b"writing manifest file '../../build/led_color_pkg/led_color_pkg.egg-info/SOURCES.txt'\n"}
+[8.816774] (led_color_pkg) StdoutLine: {'line': b'running build\n'}
+[8.817567] (led_color_pkg) StdoutLine: {'line': b'running build_py\n'}
+[8.819435] (led_color_pkg) StdoutLine: {'line': b'running install\n'}
+[8.822929] (led_color_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[8.828668] (led_color_pkg) StdoutLine: {'line': b'running install_data\n'}
+[8.831415] (led_color_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.837896] (led_color_pkg) StdoutLine: {'line': b"removing '/root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/lib/python3.8/site-packages/led_color_pkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[8.840552] (led_color_pkg) StdoutLine: {'line': b'Copying ../../build/led_color_pkg/led_color_pkg.egg-info to /root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/lib/python3.8/site-packages/led_color_pkg-0.0.0-py3.8.egg-info\n'}
+[8.844914] (led_color_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[8.879424] (-) TimerEvent: {}
+[8.907187] (led_color_pkg) StdoutLine: {'line': b'Installing led_color_node script to /root/deepracer_ws/color-detection-project/color_detection_ws/install/led_color_pkg/lib/led_color_pkg\n'}
+[8.909371] (led_color_pkg) StdoutLine: {'line': b"writing list of installed files to '/root/deepracer_ws/color-detection-project/color_detection_ws/build/led_color_pkg/install.log'\n"}
+[8.979638] (-) TimerEvent: {}
+[8.996444] (led_color_pkg) CommandEnded: {'returncode': 0}
+[9.036151] (led_color_pkg) JobEnded: {'identifier': 'led_color_pkg', 'rc': 0}
+[9.080307] (-) TimerEvent: {}
+[9.180971] (-) TimerEvent: {}
+[9.281778] (-) TimerEvent: {}
+[9.382419] (-) TimerEvent: {}
+[9.483076] (-) TimerEvent: {}
+[9.583734] (-) TimerEvent: {}
+[9.667778] (navigation_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[9.671083] (navigation_pkg) StdoutLine: {'line': b'writing ../../build/navigation_pkg/navigation_pkg.egg-info/PKG-INFO\n'}
+[9.672902] (navigation_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/navigation_pkg/navigation_pkg.egg-info/dependency_links.txt\n'}
+[9.674973] (navigation_pkg) StdoutLine: {'line': b'writing entry points to ../../build/navigation_pkg/navigation_pkg.egg-info/entry_points.txt\n'}
+[9.675598] (navigation_pkg) StdoutLine: {'line': b'writing requirements to ../../build/navigation_pkg/navigation_pkg.egg-info/requires.txt\n'}
+[9.676017] (navigation_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/navigation_pkg/navigation_pkg.egg-info/top_level.txt\n'}
+[9.684011] (-) TimerEvent: {}
+[9.784859] (-) TimerEvent: {}
+[9.825112] (navigation_pkg) StdoutLine: {'line': b"reading manifest file '../../build/navigation_pkg/navigation_pkg.egg-info/SOURCES.txt'\n"}
+[9.829452] (navigation_pkg) StdoutLine: {'line': b"writing manifest file '../../build/navigation_pkg/navigation_pkg.egg-info/SOURCES.txt'\n"}
+[9.830741] (navigation_pkg) StdoutLine: {'line': b'running build\n'}
+[9.831561] (navigation_pkg) StdoutLine: {'line': b'running build_py\n'}
+[9.833178] (navigation_pkg) StdoutLine: {'line': b'copying navigation_pkg/navigation_color_node.py -> /root/deepracer_ws/color-detection-project/color_detection_ws/build/navigation_pkg/build/lib/navigation_pkg\n'}
+[9.836586] (navigation_pkg) StdoutLine: {'line': b'running install\n'}
+[9.839227] (navigation_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[9.846204] (navigation_pkg) StdoutLine: {'line': b'copying /root/deepracer_ws/color-detection-project/color_detection_ws/build/navigation_pkg/build/lib/navigation_pkg/navigation_color_node.py -> /root/deepracer_ws/color-detection-project/color_detection_ws/install/navigation_pkg/lib/python3.8/site-packages/navigation_pkg\n'}
+[9.848152] (navigation_pkg) StdoutLine: {'line': b'byte-compiling /root/deepracer_ws/color-detection-project/color_detection_ws/install/navigation_pkg/lib/python3.8/site-packages/navigation_pkg/navigation_color_node.py to navigation_color_node.cpython-38.pyc\n'}
+[9.853766] (navigation_pkg) StdoutLine: {'line': b'running install_data\n'}
+[9.855629] (navigation_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.860820] (navigation_pkg) StdoutLine: {'line': b"removing '/root/deepracer_ws/color-detection-project/color_detection_ws/install/navigation_pkg/lib/python3.8/site-packages/navigation_pkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[9.861551] (navigation_pkg) StdoutLine: {'line': b'Copying ../../build/navigation_pkg/navigation_pkg.egg-info to /root/deepracer_ws/color-detection-project/color_detection_ws/install/navigation_pkg/lib/python3.8/site-packages/navigation_pkg-0.0.0-py3.8.egg-info\n'}
+[9.865913] (navigation_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[9.885125] (-) TimerEvent: {}
+[9.934217] (navigation_pkg) StdoutLine: {'line': b'Installing navigation_color_node script to /root/deepracer_ws/color-detection-project/color_detection_ws/install/navigation_pkg/lib/navigation_pkg\n'}
+[9.936418] (navigation_pkg) StdoutLine: {'line': b"writing list of installed files to '/root/deepracer_ws/color-detection-project/color_detection_ws/build/navigation_pkg/install.log'\n"}
+[9.985414] (-) TimerEvent: {}
+[10.031326] (navigation_pkg) CommandEnded: {'returncode': 0}
+[10.083809] (navigation_pkg) JobEnded: {'identifier': 'navigation_pkg', 'rc': 0}
+[10.086384] (-) TimerEvent: {}
+[10.088923] (-) EventReactorShutdown: {}

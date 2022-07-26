@@ -31,7 +31,7 @@ class NavigationNode(Node):
 		
 	def detection_callback(self, msg):
 		if msg.greenflag == True:
-			self.throttle = 0.6
+			self.throttle = 0.4
 			self.angle = 0.0
 		elif msg.yellowflag == True:
 			self.throttle = 0.4
