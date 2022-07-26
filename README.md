@@ -44,7 +44,7 @@ Follow the next steps as root user to download the project:
 Follow steps ahead to run the project. Multiple console windows will be opened.
 
 ### First console window:
-Let's run the color filtering node in the first console window.
+Open a new terminal and let's run the color filtering node.
 
 1. Switch to root user:
 
@@ -69,7 +69,7 @@ Let's run the color filtering node in the first console window.
 Now you are running the color detection package which is in charge of apply different masks in order to detect different colors.
 
 ### Second Console Window:
-Let's run the set led color node in the second console window.
+Open a one more terminal and run the set led color node.
 
 1. Switch to root user:
 
@@ -92,7 +92,7 @@ Let's run the set led color node in the second console window.
         ros2 run led_color_pkg led_color_node
 
 ### Third Console Window:
-Let's run the navigation node in our third and last console window.
+Open one last console and run the navigation node.
 
 1. Switch to root user:
 
