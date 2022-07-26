@@ -2,7 +2,7 @@ import rclpy
 
 from deepracer_interfaces_pkg.msg import ServoCtrlMsg
 from rclpy.node import Node
-from vision_interfaces_pkg.msg import ColorFlag
+from color_interfaces.msg import ColorFlag
 
 class NavigationNode(Node):
 	def __init__(self):

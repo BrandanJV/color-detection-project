@@ -1,8 +1,7 @@
 import rclpy
-import cv2
 
 from rclpy.node import Node
-from vision_interfaces_pkg.msg import ColorFlag
+from color_interfaces.msg import ColorFlag
 from deepracer_interfaces_pkg.srv import SetLedCtrlSrv
 
 class LedColorNode(Node):
@@ -29,7 +28,6 @@ class LedColorNode(Node):
 		self.led_scaling_factor = 39215
 				
 	def listener_callback(self, msg):
-		set_led_color_req = SetLedCtrlSrv.Request()
 		if msg.greenflag == True:
 			self.get_logger().info("Setting leds tail light green. \n")
 			set_led_color_req = SetLedCtrlSrv.Request()
