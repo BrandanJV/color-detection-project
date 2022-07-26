@@ -38,8 +38,11 @@ Follow the next steps as root user to download the project:
 1. Build packages in the workspace:
         
         cd ~/deepracer_ws/color-detection-project/color_detection_ws/ && colcon build
-        
+      
+1. Restart the `deepracer-core.service`:
 
+        systemctl stop deepracer-core
+        
 ## Use the Color Detection Project:
 Follow steps ahead to run the project. Multiple console windows will be opened.
 
