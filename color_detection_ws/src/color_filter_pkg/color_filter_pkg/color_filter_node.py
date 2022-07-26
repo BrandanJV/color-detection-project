@@ -5,7 +5,7 @@ import numpy as np
 
 from rclpy.node import Node
 from sensor_msgs.msg import Image
-from vision_interfaces_pkg.msg import ColorFlag
+from color_interfaces.msg import ColorFlag
 from cv_bridge import CvBridge, CvBridgeError
 
 class VideoFilterNode(Node):
