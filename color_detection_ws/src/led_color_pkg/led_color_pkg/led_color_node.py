@@ -1,5 +1,4 @@
 import rclpy
-import cv2
 
 from rclpy.node import Node
 from color_interfaces.msg import ColorFlag
