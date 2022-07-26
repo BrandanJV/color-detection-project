@@ -41,7 +41,7 @@ Follow the next steps as root user to download the project:
       
 1. Restart the `deepracer-core.service`:
 
-        systemctl stop deepracer-core
+        systemctl restart deepracer-core
         
 ## Use the Color Detection Project:
 Follow steps ahead to run the project. Multiple console windows will be opened.
