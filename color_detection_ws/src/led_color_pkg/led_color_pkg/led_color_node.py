@@ -2,7 +2,7 @@ import rclpy
 import cv2
 
 from rclpy.node import Node
-from vision_interfaces_pkg.msg import ColorFlag
+from color_interfaces.msg import ColorFlag
 from deepracer_interfaces_pkg.srv import SetLedCtrlSrv
 
 class LedColorNode(Node):
